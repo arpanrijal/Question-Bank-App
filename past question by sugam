@@ -1,6 +1,6 @@
 #QUESTION FROM 2072-2069
 
--> Write a program to calculate the sum of the series 1+11+11l+....+ up to N tirrns using recursive function.If N is read as 5, the series is:1+11+111+1111+11111. [ 2072 Kartik ]
+-> Write a program to calculate the sum of the series 1+11+11l+....+ up to N terrns using recursive function.If N is read as 5, the series is:1+11+111+1111+11111. [ 2072 Kartik ]
 
 -> Write a program to find the sum of series Sn = Σ(l/n^2) up to N term. [ 2072 Kartik ]
 
@@ -210,7 +210,7 @@ ii) correct up to four decimal places
 
 -> Create an Array of structure name Employee with the name and salary as structure member and the  array of structure is passed to a function which sots in ascending order on the basis of salary and display the sorted array from main(). [2069 Chaitra]
 
-->  Wight a program, taking care of all the possible error condition that may occur, to open a new file name DATA that reads  integers from user until user say “no”. After reading the data write all the odd numbers to a file called ODD  and all the even number to file called EVEN. [2069 Chaitra]
+->  Write a program, taking care of all the possible error condition that may occur, to open a new file name DATA that reads  integers from user until user say “no”. After reading the data write all the odd numbers to a file called ODD  and all the even number to file called EVEN. [2069 Chaitra]
 
 
 
