@@ -50,17 +50,30 @@
 
 -> Rewrite the following program by correcting any syntactical errors, if present.Also show the output of the corrected code.  [2070 Ashad]
               #include<stdio.h>
+              
               int main()
+              
               { 
+              
                   float root, int i=1;
+                  
                   do{ sum=2i-1;
-                      print("\t%d\n",sum);
-                      i*=5/3;
-                  } while (sum<=15)
+                  
+                         print("\t%d\n",sum);
+                      
+                         i*=5/3;
+                      
+               } 
+                  while (sum<=15)
+                  
                   root=pow(i,1/2);
+                  
                   print("\n%.3f',root);
+                  
                   return void;
+                  
               }
+              
              
 
 -> Write a program to read the number until - 1  is encountered. Also count the number of even number and odd numbers entered by the user.[2070 Ashad]
@@ -76,21 +89,33 @@
 -> Write a program to read the details of book authors and write it to a file until the user cofirms to end.Then read and display the nth record in the file, where n is read from the user. The data form authors must be represented by structures that contain name, nationally and number of books published.  [2070 Ashad]
 
 -> Find out final value of a,b,c where following rxpression are executed sequentially.[2070 Chaitra]
-int a=2, b=3, c;
-a= (b++) + (++b) + a;
-c=a>b ? a:b;
-b= (a++) + (b--) + a;
-c=c++ * b--;
+
+     int a=2, b=3, c;
+
+     a= (b++) + (++b) + a;
+
+     c=a>b ? a:b;
+
+     b= (a++) + (b--) + a;
+
+     c=c++ * b--;
 
 -> Write a C program to display following patterns using unformatted output statement.[2070 Chaitra]
-P
-Pu
-PuL
-PULC
-PuLcH
-pULCHO
-puLcHoW
-pULCHOWK
+     P
+
+     Pu
+
+     PuL
+
+     PULC
+
+     PuLcH
+
+     pULCHO
+
+     puLcHoW
+
+     pULCHOWK
 
 -> Write a program to display only those students information which are passed. Use separate function to check the result of student. the information of students like Name, Roll number, Address and Marks are passed from main functions and pass to functions using array type arguments.[2070 Chaitra]
 
@@ -112,40 +137,65 @@ Record all data in “ioe.txt” file, and programs will be print roll number an
 
 //program to convert list of temperatures
 //in Centigrade to Fahrenheit
-#include sidio.h ;
+
+#include sidio.h;
+
 int main()
+
 {
-int i, n=3,'
-float celc[n], faren[n] ;
-for(i=0: i<n; i++)
+
+     int i, n=3;
+
+     float celc[n], faren[n];
+
+     for(i=0: i<n; i++)
+
 {
-Print ( "Celc[%d] =" )
-scanf("%d", ceic[i]);
+
+         Print ( "Celc[%d] =" )
+
+         scanf("%d", ceic[i]);
+
 }
-convert (celc, faren, n); :
-for(i=0; i<n; i++) print(faren[i]);
-break;
-);
-void convert,(float ce1[],, float far[], int n)
-{
-for(i=0; i<n,. i++) cel2far(far[i], cel[i]);
+
+     convert (celc, faren, n);
+
+     for(i=0; i<n; i++) print(faren[i]);
+
+     break;
+
 };
-cel2far(float f, float c)
-{ f =9/5*c+32; };
+
+     void convert,(float ce1[],, float far[], int n)
+{
+           for(i=0; i<n,. i++) cel2far(far[i], cel[i]);
+};
+     cel2far(float f, float c)
+{     f =9/5*c+32; };
 
 
 
 -> Give the output of the following program and justify your answer with reason.[2069 Chaitra]
 #include<stdio.h>
+
 int main()
+
 {
-int x=3 ,y=5.z=7;
-int a,b;
-a=x*2 + y/5 - z*y;
-b= ++x *(y-3)/2-z++*y;
-printf("a=%d",a);
-printf("b=%d",b);
-retum 0;
+
+     int x=3 ,y=5.z=7;
+
+     int a,b;
+
+     a=x*2 + y/5 - z*y;
+
+     b= ++x *(y-3)/2-z++*y;
+
+     printf("a=%d",a);
+
+     printf("b=%d",b);
+
+     retum 0;
+
 }
 
 -> Write a program that prints the floating point value with following specification.[2069 Chaitra]
