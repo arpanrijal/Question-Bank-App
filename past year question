@@ -46,3 +46,25 @@ return 0;
 
 -> A file name employee.txt stores employee name, employee ID and employee salary write a program to display the detail of all employee in order of their salary?    [2075 Ashwin]
 
+-> write down the output of the print() function for the following sections of the statements?   [2074 Chaitra]
+
+          float a = 5.7891;
+
+          int b = 6789;
+
+          printf("a=%4f and b=%-7d from the first line",a,b);
+
+          printf("a=%-7.2f and b=%07d from the second line",a,b);
+
+          printf("a=%.2f and b=%2d from the third line",a,b);
+
+-> write a program to convert a decimal into a binary number?    [2074 Chaitra]
+
+-> write a program to read a mxn matrix of integers and to find the largest elements of each row. Store the largest elements of the row in a one dimensional array of m integers before displaying them?   [2074 Chaitra]
+
+-> creat a structure named student that has name, roll and marks as members. assume appropriate types and size of members. use this structure to read and display records of students. create two functions: one is to read information of students and other to display the information.   [2074 Chaitra]
+
+-> write a program to copy the content of one file source.txt to another destination.txt?   [2074 Chaitra]
+
+
+
