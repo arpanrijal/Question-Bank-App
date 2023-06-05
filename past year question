@@ -118,4 +118,12 @@ int main()
 
 -> write a program in a C to read integer from the user until the user says "no" after reading the data write all the odd numbers to a file name odd.txt and all even number to file named even.txt?    [2074 Ashwin]
 
+-> write a program to read a string and check whether it consist of alphabet or not use user defined function to accomplish the tax?    [2073 Chaitra]
 
+-> write a C program to display largest and smallest elements of a 2D array?    [2073 Chaitra]
+
+-> write a program in C to read the name, age and salary of 10 different employees as the three members of a structure named as "employee" sort this data in salary basis using user defined function and display sorted data from main function?    [2073 Chaitra]
+
+-> write a program in C programming language to computer the cosine series? (hint cos(x)= 1-x^2/2!+x^4/4!-x^6/6!+...........up to n term)    [2073 Chaitra]
+
+-> write a program to open a file named "INVENTORY" and store in it for maximum 10000 data of ITEM_NAME, NUMBER, PRICE, QUANTITY. Extend the program to read this data from the above given filename and display the inventory table with the value of each item?    [2073 Chaitra]
