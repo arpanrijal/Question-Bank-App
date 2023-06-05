@@ -66,5 +66,56 @@ return 0;
 
 -> write a program to copy the content of one file source.txt to another destination.txt?   [2074 Chaitra]
 
+-> rewrite the following program by correcting any errors, if present and also write down the output of the corrected code?    [2074 Ashwin]
+
+Define MAX'S'
+
+int main()
+
+{
+
+    int case[MAX]={2,3,5,4,10},i,sum=0;
+
+    for(i=0,i<MAX,i+=1)
+
+       {
+
+           printf("case %d=%3.2d\n",I,case[i]);
+
+           sum+=*case+i;
+
+       };
+
+     average=sum/MAX;
+
+    printf("%06.2f",average);
+
+     return 1;
+
+}
+
+-> write a program in a c to generate following patterns using unformatted input/output functions only?    [2074 Ashwin]
+
+            N
+
+          e e e
+
+        P P P P P
+
+      a a a a a a a
+
+    L L L L L L L L L 
+
+-> write a program in C to find out whether the nth term of the Fibonacci series is a prime number or not. Read the value of n from the user and display the result in the main function. Use separate user-defined functions to generate the nth  Fibonacci term and to check whether a number its prime or not?     [2074 Ashwin]
+
+-> write a program to read the square matrix of size NxN and sum of both diagonals?     [2074 Ashwin]
+
+-> write a program in C to check whether a given string is palindrome or not using user defined function?    [2074 Ashwin]
+
+-> write a program in a C to find second largest elements from an array counting N elements using concept of pointer?    [2074 Ashwin]
+
+-> write a program that uses the structure to read two complex numbers and display a third complex number which is the multiplication of the entered complex numbers?    [2074 Ashwin]
+
+-> write a program in a C to read integer from the user until the user says "no" after reading the data write all the odd numbers to a file name odd.txt and all even number to file named even.txt?    [2074 Ashwin]
 
 
