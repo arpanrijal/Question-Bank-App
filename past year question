@@ -152,4 +152,12 @@ a
 
 -> write a program to read name and roll number of 48 students from user and store them in a file. If the file already contain data, your programs should add new data at the end of the file?     [2073 Shrawan]
 
+-> write a program to check whether a given integer is a triangle number or not? (Any number is a triangle number if the sum of natural number from 1 to any number i is exactly equal to that number for example 1+2=3, 1+2+3=6, 1+2+3+4=10, 1+ 2 + 3 + 4 + 5 = 15).    [2072 Chaitra]
 
+-> write a program to calculate the sum of disease of a given 5 digit number entered by the user using recursive function?    [2072 Chaitra]
+
+-> write a program to read a 3*3 square matrix, find the minimum integer value of a matrix, replace the diagonal elements by the minimum element and display it using a pointer?    [2072 Chaitra]
+
+-> write a program to read structure "college" having name, estDate and location where estDate is an another structure having day, month and year as members. Display the records of 10 colleges?    [2072 Chaitra]
+
+-> write a program to read the information of a file named "data.txt" and write its content to another file "record.txt"?    [2072 Chaitra]
