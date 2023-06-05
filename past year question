@@ -127,3 +127,29 @@ int main()
 -> write a program in C programming language to computer the cosine series? (hint cos(x)= 1-x^2/2!+x^4/4!-x^6/6!+...........up to n term)    [2073 Chaitra]
 
 -> write a program to open a file named "INVENTORY" and store in it for maximum 10000 data of ITEM_NAME, NUMBER, PRICE, QUANTITY. Extend the program to read this data from the above given filename and display the inventory table with the value of each item?    [2073 Chaitra]
+
+-> write a C program to display the following patterns without using formatted input/output statement?    [2073 Shrawan]
+
+Programming
+
+rogrammin
+
+ogrammi
+
+gramm
+
+ram
+
+a
+
+-> write a C program to display all characters between a given ranges?     [2073 Shrawan]
+
+-> write a C program to read two string in main and compare them using user defined function. Display appropriate message from main?    [2073 Shrawan]
+
+-> write a program to check whether a given number is Armstrong number or not using recursive function?     [2073 Shrawan]
+
+-> Write a program to add corresponding elements of two arrays. The results should form a new array?    [2073 Shrawan]
+
+-> write a program to read name and roll number of 48 students from user and store them in a file. If the file already contain data, your programs should add new data at the end of the file?     [2073 Shrawan]
+
+
