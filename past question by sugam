@@ -75,15 +75,14 @@
 
 -> Write a program to read the details of book authors and write it to a file until the user cofirms to end.Then read and display the nth record in the file, where n is read from the user. The data form authors must be represented by structures that contain name, nationally and number of books published.  [2070 Ashad]
 
--> Find out final value of a,b,c where following rxpression are executed sequentially
+-> Find out final value of a,b,c where following rxpression are executed sequentially.[2070 Chaitra]
 int a=2, b=3, c;
 a= (b++) + (++b) + a;
 c=a>b ? a:b;
 b= (a++) + (b--) + a;
 c=c++ * b--;
-[2070 Chaitra]
 
--> Write a C program to display following patterns using unformatted output statement
+-> Write a C program to display following patterns using unformatted output statement.[2070 Chaitra]
 P
 Pu
 PuL
@@ -92,7 +91,6 @@ PuLcH
 pULCHO
 puLcHoW
 pULCHOWK
-[2070 Chaitra]
 
 -> Write a program to display only those students information which are passed. Use separate function to check the result of student. the information of students like Name, Roll number, Address and Marks are passed from main functions and pass to functions using array type arguments.[2070 Chaitra]
 
