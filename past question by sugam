@@ -1,0 +1,252 @@
+#QUESTION FROM 2072-2069
+
+-> Write a program to calculate the sum of the series 1+11+11l+....+ up to N terrns using recursive function.If N is read as 5, the series is:1+11+111+1111+11111. [ 2072 Kartik ]
+
+-> Write a program to find the sum of series Sn = Σ(l/n^2) up to N term. [ 2072 Kartik ]
+
+-> Write a program to read a word from a main function, pass it into a function that will convert all of its characters into upper case if the first character is in iower case and into lower case if the first character is in upper case. Display the converted string from main function. [ 2072 Kartik ]
+
+-> Write a C program that calls reverse array () to reverse the array and return the array and display the element of reversed array using pointer. [ 2072 Kartik ]
+
+->  Write a program to read n from user and display the sum of follorwing series till nth terms: 1+(1+2)+(1+2+3)+(1+2+3+4)+.......n. [ 2072 Kartik ]
+
+-> Write a program to write name, roll number and age of 5 students into a disk file name “STUDENT.DAT”. [ 2072 Kartik ]
+
+-> Write a progratn to check whether a given integer ls a triangular number or not.( Any number is a triangular number if the sum of natural number from 1 to any number i is exactly equal to that number. For eg 1,3,6,10,15 etc are triangukar number as 1+2=3, 1+2+3=6, 1+2+3+4=10,......). [2072 Chaitra ]
+
+-> Write a prograrn to calculate sum of digits of a given 5-digits number entererd by the user using recursive function.[2072 Chaitra ]
+
+-> write a program to read a 3*3 square matrix, find minimum integer value of matrix, replace the diagonal elements by the maximum element and display using pointer.[2072 Chaitra ]
+
+-> Write a program to read structure “college” having name, estDate and location where estDate is another structure having day, month and year as a members. Display the records of 10 colleges.[2072 Chaitra ]
+
+-> Write a program to read the information of a file named “data.txt” and write its content to another file “record.txt”. [2072 Chaitra ]
+
+-> write the prograrm "to find whether a year is leap or not'. [2071 Shrawan]
+
+->  write a program to find out sum of digit of number until the number becomes one digit number.[891>18>9]. [2071 Shrawan]
+
+-> write a program to read a string and rewrite its characters in alphabetical order.[2071 Shrawan]
+
+-> A multinational company has  hired 3 sales persons for marketing/selling in 3 different.products in Kathmandu. Each sales person sells each of these products. Write a program to read number of each product sold by all.sales-persons. Calculate total sells of each item and the total sells of each sales-person. Use arrays. [2071 Shrawan]
+
+-> Write the program “to understand how to structure members are sent to a function “. [2071 Shrawan]
+ 
+-> Write a program using pointer to swap  the value of two variables where the swapping operation is performed in separate function. [2071 Shrawan]
+
+-> Write a C program to store employed details in a text file. Read data from the text file, short them in ascending order of salary and store the sorted record to a binary file. Display the details and rank of employee given by the user. [2071 Shrawan]
+
+-> lilustrate nested iF statement with its flowchart. Write a program to calculate the series: 1x10+ 3x20+6x30+.......+ N(N+1)/2 *10N, where N is an integer terM read from the keyboard. [2071 Chaitra]
+
+-> Write a program to display Armstrong number between the range entered by a user and also display their counts. You must use of function to check for Armstrong numbersand display them from main.[2071 Chaitra]
+
+-> Write a C program to read the string and display its reverse. Use user defined function to count number of characters in it and to reverse it. [2071 Chaitra]
+
+-> Write a C program that reads several different names and address using structure computer, rearrange the names into alphabetical order and write out alphabetical list.[2071 Chaitra]
+
+-> Write a program to calculate sum and average of integer numbers between M and N(where value of M and are read from keyboard ) using pointer.[2071 Chaitra]
+
+-> Write a program to continuously read name, age and salary of a worker and write it into a file utill user confirms to end. Then read n from user and display the nth record in the file. Details of worker must be represented by a structure.[2071 Chaitra]
+
+-> Rewrite the following program by correcting any syntactical errors, if present.Also show the output of the corrected code.  [2070 Ashad]
+              #include<stdio.h>
+              
+              int main()
+              
+              { 
+              
+                  float root, int i=1;
+                  
+                  do{ sum=2i-1;
+                  
+                         print("\t%d\n",sum);
+                      
+                         i*=5/3;
+                      
+               } 
+                  while (sum<=15)
+                  
+                  root=pow(i,1/2);
+                  
+                  print("\n%.3f',root);
+                  
+                  return void;
+                  
+              }
+              
+             
+
+-> Write a program to read the number until - 1  is encountered. Also count the number of even number and odd numbers entered by the user.[2070 Ashad]
+
+-> Write a program using a function that returns the largest number from an array of numbers that is passed to the function. [2070 Ashad]
+
+-> Write a C program to read two matrices from user, add them  and display the result in matrix form. [2070 Ashad]
+
+-> Write a program to read the heights of two students and display the differences between their heights. Use feat and inches as members of structure to define height. [2070 Ashad]
+
+-> Write a program to read a string from user and use a user defined function  to copy the content of the read string into another character array changing lowercase letter to upper if any. Use pointer to process the string.    [2070 Ashad]
+
+-> Write a program to read the details of book authors and write it to a file until the user cofirms to end.Then read and display the nth record in the file, where n is read from the user. The data form authors must be represented by structures that contain name, nationally and number of books published.  [2070 Ashad]
+
+-> Find out final value of a,b,c where following rxpression are executed sequentially.[2070 Chaitra]
+
+     int a=2, b=3, c;
+
+     a= (b++) + (++b) + a;
+
+     c=a>b ? a:b;
+
+     b= (a++) + (b--) + a;
+
+     c=c++ * b--;
+
+-> Write a C program to display following patterns using unformatted output statement.[2070 Chaitra]
+     P
+
+     Pu
+
+     PuL
+
+     PULC
+
+     PuLcH
+
+     pULCHO
+
+     puLcHoW
+
+     pULCHOWK
+
+-> Write a program to display only those students information which are passed. Use separate function to check the result of student. the information of students like Name, Roll number, Address and Marks are passed from main functions and pass to functions using array type arguments.[2070 Chaitra]
+
+-> Write a C program to convert data in BS to data in AD using structure. Use the data difference of current data.[2070 Chaitra]
+
+-> Write the program to display the records in sorted order sorting in performed  in ascending order with respect to the name using data files concept.[2070 Chaitra]
+
+-> Write a program in C to find all possible roots of a quadratic equation ax^2 + bx + c=0. [2069 Ashad]
+
+-> Write a program that passes an array to a function and print the largest and smallest element.[2069 Ashad]
+
+-> Create a structure in C to  store the name of a batsman, runs score and no. of times the batsman in dismissed. In the program read data of 5 players and display the batting average of the player whose name is entered by the user. Batting average is given by the total runs/total dismissals.[2069 Ashad]
+
+-> Write a program in C to read the following information from 96 students:
+Studentd Name, Student roll number, Maeks obtained (in 100).
+Record all data in “ioe.txt” file, and programs will be print roll number and name of the Student who have obtained greater than or equal to 40 marks. [2069 Ashad]
+
+-> Rewrite the following source code correcting  any error present in it. Also indicate the error corrected in comment. Then write the output of the program.[2069 Ashad]
+
+//program to convert list of temperatures
+//in Centigrade to Fahrenheit
+
+#include sidio.h;
+
+int main()
+
+{
+
+     int i, n=3;
+
+     float celc[n], faren[n];
+
+     for(i=0: i<n; i++)
+
+{
+
+         Print ( "Celc[%d] =" )
+
+         scanf("%d", ceic[i]);
+
+}
+
+     convert (celc, faren, n);
+
+     for(i=0; i<n; i++) print(faren[i]);
+
+     break;
+
+};
+
+     void convert,(float ce1[],, float far[], int n)
+{
+           for(i=0; i<n,. i++) cel2far(far[i], cel[i]);
+};
+     cel2far(float f, float c)
+{     f =9/5*c+32; };
+
+
+
+-> Give the output of the following program and justify your answer with reason.[2069 Chaitra]
+#include<stdio.h>
+
+int main()
+
+{
+
+     int x=3 ,y=5.z=7;
+
+     int a,b;
+
+     a=x*2 + y/5 - z*y;
+
+     b= ++x *(y-3)/2-z++*y;
+
+     printf("a=%d",a);
+
+     printf("b=%d",b);
+
+     retum 0;
+
+}
+
+-> Write a program that prints the floating point value with following specification.[2069 Chaitra]
+i) Correct up to two decimal places
+ii) correct up to four decimal places
+
+-> Write a program to read the number until- 1 is encountered. Also count the number of prime number and composite number entered by the user.[2069 Chaitra]
+
+-> Write a program to calculate exp(x,y) using recursive function without using pow() function.[ example: exp(2,3)=2^3 i.e. 2*2*2=8.]. [2069 Chaitra]
+
+-> Write a program to transport 3 * 3 matrix. Two matrix are input from the main() function and pass to a user defined function with arguments as array.The result is displayed from the main function.[2069 Chaitra]
+
+-> Create an Array of structure name Employee with the name and salary as structure member and the  array of structure is passed to a function which sots in ascending order on the basis of salary and display the sorted array from main(). [2069 Chaitra]
+
+->  Write a program, taking care of all the possible error condition that may occur, to open a new file name DATA that reads  integers from user until user say “no”. After reading the data write all the odd numbers to a file called ODD  and all the even number to file called EVEN. [2069 Chaitra]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
