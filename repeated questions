@@ -128,7 +128,8 @@ OR
 -> write a program in C programming language to computer the cosine series? (hint cos(x)= 1-x^2/2!+x^4/4!-x^6/6!+...........up to n term)    [2073 Chaitra]
 
 OR
-
+-> Write a programe  to evaluate the following series
+  cos(x)=1-x^2/2! +x^4/4! -x^6/6!.......+n terms[2078 Kartik]
 
 
 
