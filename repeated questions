@@ -6,7 +6,10 @@
      OR
 -> Write a programe  to find the largest and smallest elements of an array using a single function and display the result in calling function.[2076 Chaitra]
      OR
-     -> Write a programe  to read a structure named "faculty" having StaffID,Name,Address and ServiceYear as member.Where ServiceYear is another structure having DurationInYear as member .Now display the details of those faculties whose service duration is more than 10 and less than 30 years..[2078 Kartik]
+     
+     
+     
+ -> Write a programe  to read a structure named "faculty" having StaffID,Name,Address and ServiceYear as member.Where ServiceYear is another structure having DurationInYear as member .Now display the details of those faculties whose service duration is more than 10 and less than 30 years..[2078 Kartik]
 
 
 
