@@ -61,3 +61,17 @@ Record all data in “ioe.txt” file, and programs will be print roll number an
 OR
 -> Write a program to read the information of a file named “data.txt” and write its content to another file “record.txt”. [2072 Chaitra ]
 .................
+
+-> write a program in a c to generate following patterns using unformatted input/output functions only?    [2074 Ashwin] 
+  
+             N 
+  
+           e e e 
+  
+         P P P P P 
+  
+       a a a a a a a 
+  
+     L L L L L L L L L 
+
+OR
