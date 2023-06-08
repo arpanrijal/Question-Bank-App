@@ -142,6 +142,11 @@ cos(x)=1-x^2/2!+x^4/4!-X^6/6!+x^8/8!.....
 
 -> Write a programe to print all the roots(Even imaginary roots) of quadratic equation.[2076 Chaitra]
 
+-------------------
+
+-> creat a structure named student that has name, roll and marks as members. assume appropriate types and size of members. use this structure to read and display records of students. create two functions: one is to read information of students and other to display the information.   [2074 Chaitra]
+
+OR
 
 
 
