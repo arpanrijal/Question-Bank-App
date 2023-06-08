@@ -4,7 +4,7 @@
 
 -> Write a program to find the sum of series Sn = Σ(l/n^2) up to N term. [ 2072 Kartik ]
 
--> Write a program to read a word from a main function, pass it into a function that will convert all of its characters into upper case if the first character is in iower case and into lower case if the first character is in upper case. Display the converted string from main function. [ 2072 Kartik ]
+-> Write a program to read a word from a main function, pass it into a function that will convert all of its characters into upper case if the first character is in iower case and into lower case if the first character is in upper case. Display the converted string from main function. [ 2072 Kartik ] (DONE)
 
 -> Write a C program that calls reverse array () to reverse the array and return the array and display the element of reversed array using pointer. [ 2072 Kartik ]
 
@@ -84,7 +84,7 @@
 
 -> Write a program to read the heights of two students and display the differences between their heights. Use feat and inches as members of structure to define height. [2070 Ashad]
 
--> Write a program to read a string from user and use a user defined function  to copy the content of the read string into another character array changing lowercase letter to upper if any. Use pointer to process the string.    [2070 Ashad]
+-> Write a program to read a string from user and use a user defined function  to copy the content of the read string into another character array changing lowercase letter to upper if any. Use pointer to process the string.    [2070 Ashad]  (DONE)
 
 -> Write a program to read the details of book authors and write it to a file until the user cofirms to end.Then read and display the nth record in the file, where n is read from the user. The data form authors must be represented by structures that contain name, nationally and number of books published.  [2070 Ashad]
 
