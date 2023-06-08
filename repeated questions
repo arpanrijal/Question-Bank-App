@@ -24,3 +24,5 @@
         OR
 -> Create an Array of structure name Employee with the name and salary as structure member and the  array of structure is passed to a function which sots in ascending order on the basis of salary and display the sorted array from main(). [2069 Chaitra]
 
+-> Write a programe  to create a new file named "employee.dat" which consist the information of 10 employees.Employee information includes empName,salary and post.Read the file bacck to search the word "manager".[2078 Kartik]
+
