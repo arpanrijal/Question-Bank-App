@@ -3,5 +3,8 @@
 -> Write a program to read one dimensional array of n elements, pass it to a function for processing so that, the programs should display the largest and smallest element of an array from the main function?   [2075 Chaitra]
       OR
 -> Write a program that passes an array to a function and print the largest and smallest element.[2069 Ashad]
+     OR
+-> Write a programe  to find the largest and smallest elements of an array using a single function and display the result in calling function.[2076 Chaitra]
+
 
 
