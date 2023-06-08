@@ -12,6 +12,8 @@
          OR
   -> Create an Array of structure name Employee with the name and salary as structure member and the  array of structure is passed to a function which sots in ascending order on the basis of salary and display the sorted array from main(). [2069 Chaitra]
 
+---------------
 
+-> write a program to add to distances given in feet and inch format using structure?    [2075 Ashwin]
 
 
