@@ -114,3 +114,5 @@ OR
  
  -> Write a program to read a string from user and use a user defined function  to copy the content of the read string into another character array changing lowercase letter to upper if any. Use pointer to process the string.    [2070 Ashad]
         OR
+-> Write a program to read a word from a main function, pass it into a function that will convert all of its characters into upper case if the first character is in iower case and into lower case if the first character is in upper case. Display the converted string from main function. [ 2072 Kartik ] (DONE)
+...........................................
