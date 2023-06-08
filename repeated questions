@@ -116,3 +116,16 @@ OR
         OR
 -> Write a program to read a word from a main function, pass it into a function that will convert all of its characters into upper case if the first character is in iower case and into lower case if the first character is in upper case. Display the converted string from main function. [ 2072 Kartik ] (DONE)
 ...........................................
+
+
+-> Write a program using a function that returns the largest number from an array of numbers that is passed to the function. [2070 Ashad]
+            OR
+
+
+
+
+
+
+
+
+
