@@ -52,7 +52,9 @@ OR
  -> Write a program in C to read the following information from 96 students:
 Studentd Name, Student roll number, Maeks obtained (in 100).
 Record all data in “ioe.txt” file, and programs will be print roll number and name of the Student who have obtained greater than or equal to 40 marks. [2069 Ashad]
-
+     OR
+-> Write a program to display only those students information which are passed. Use separate function to check the result of student. the information of students like Name, Roll number, Address and Marks are passed from main functions and pass to functions using array type arguments.[2070 Chaitra]
+......................................
 
 
 
