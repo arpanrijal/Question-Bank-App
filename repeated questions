@@ -132,4 +132,6 @@ OR
   cos(x)=1-x^2/2! +x^4/4! -x^6/6!.......+n terms[2078 Kartik]
 
 
+-> Write a programe  to evalute the following series until the term value becomes less than 10^-6: [2079 Bhadra]
+cos(x)=1-x^2/2!+x^4/4!-X^6/6!+x^8/8!.....
 
