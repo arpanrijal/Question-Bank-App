@@ -21,4 +21,6 @@
 -----------------
 
 -> A file name employee.txt stores employee name, employee ID and employee salary write a program to display the detail of all employee in order of their salary?    [2075 Ashwin]
+        OR
+-> Create an Array of structure name Employee with the name and salary as structure member and the  array of structure is passed to a function which sots in ascending order on the basis of salary and display the sorted array from main(). [2069 Chaitra]
 
