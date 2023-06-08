@@ -130,7 +130,7 @@
 -> Create a structure in C to  store the name of a batsman, runs score and no. of times the batsman in dismissed. In the program read data of 5 players and display the batting average of the player whose name is entered by the user. Batting average is given by the total runs/total dismissals.[2069 Ashad]
 
 -> Write a program in C to read the following information from 96 students:
-Studentd Name, Student roll number, Maeks obtained (in 100).
+Studentd Name, Student roll number, Marks obtained (in 100).
 Record all data in “ioe.txt” file, and programs will be print roll number and name of the Student who have obtained greater than or equal to 40 marks. [2069 Ashad]
 
 -> Rewrite the following source code correcting  any error present in it. Also indicate the error corrected in comment. Then write the output of the program.[2069 Ashad]
