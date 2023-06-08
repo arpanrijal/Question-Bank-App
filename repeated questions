@@ -39,6 +39,7 @@
 
 -> Write a programe  to display the addition of two matrix.Your programe should include one function named input to enter the values of two matrix, one function named add to perform addtion of two matrix and one function named display to show the result obtained after addition of two matrix.[2079 Baishakh]
 
+-> Calculate a structure called "student" with data member name,address and id.pass structure to function and sort the information of student on the basis of alpahabetical order of "name" and display the result in main() function.[2078 Kartik]
 
 
 
