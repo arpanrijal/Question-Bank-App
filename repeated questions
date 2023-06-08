@@ -37,6 +37,7 @@
 -> Write a C program to read two matrices from user, add them  and display the result in matrix form. [2070 Ashad]
         OR
 
+-> Write a programe  to display the addition of two matrix.Your programe should include one function named input to enter the values of two matrix, one function named add to perform addtion of two matrix and one function named display to show the result obtained after addition of two matrix.[2079 Baishakh]
 
 
 
