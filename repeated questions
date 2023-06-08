@@ -137,7 +137,8 @@ cos(x)=1-x^2/2!+x^4/4!-X^6/6!+x^8/8!.....
 
 ------------
 
-
+-> Write a program in C to find all possible roots of a quadratic equation ax^2 + bx + c=0. [2069 Ashad]
+           OR
 
 
 
