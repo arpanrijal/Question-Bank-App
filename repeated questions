@@ -23,6 +23,7 @@
 -> A file name employee.txt stores employee name, employee ID and employee salary write a program to display the detail of all employee in order of their salary?    [2075 Ashwin]
         OR
 -> Create an Array of structure name Employee with the name and salary as structure member and the  array of structure is passed to a function which sots in ascending order on the basis of salary and display the sorted array from main(). [2069 Chaitra]
-
+          OR
 -> Write a programe  to create a new file named "employee.dat" which consist the information of 10 employees.Employee information includes empName,salary and post.Read the file bacck to search the word "manager".[2078 Kartik]
-
+         OR
+-> Write a C program to store employed details in a text file. Read data from the text file, short them in ascending order of salary and store the sorted record to a binary file. Display the details and rank of employee given by the user. [2071 Shrawan]
