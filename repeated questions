@@ -140,6 +140,6 @@ cos(x)=1-x^2/2!+x^4/4!-X^6/6!+x^8/8!.....
 -> write a program to check whether a given integer is a triangle number or not? (Any number is a triangle number if the sum of natural number from 1 to any number i is exactly equal to that number for example 1+2=3, 1+2+3=6, 1+2+3+4=10, 1+ 2 + 3 + 4 + 5 = 15).    [2072 Chaitra]
 
 OR
-
-
+-> Write a progratn to check whether a given integer ls a triangular number or not.( Any number is a triangular number if the sum of natural number from 1 to any number i is exactly equal to that number. For eg 1,3,6,10,15 etc are triangukar number as 1+2=3, 1+2+3=6, 1+2+3+4=10,......). [2072 Chaitra ]
+.......................................
 
