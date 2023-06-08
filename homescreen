@@ -1,0 +1,877 @@
+#include<stdio.h>
+
+#include<stdlib.h>
+
+#include<math.h>
+
+void quesPast();
+
+void paliFiboArm();
+
+int main()
+
+{
+
+    int choice;
+
+    printf("Word By Devs:\tWelcome to Er.C solution App.\n\t\tThis app is made to help\n\t\tstudent who want to learn c\n\t\tprogramming easily.\n\t\twe provide you the full\n\t\tsolution so it helps you in\n\t\tour exam.\n\n");
+
+    printf("Developer:\tArpan,Sugam,Sujan\n");
+
+    printf("\n\n1. All past year question (2069-2080)\n");
+
+    printf("\n2. Repeated past year question (2069-2080)\n");
+
+    printf("\n3. Palindrome, Fibonacci, Armstrong questions (2069-2080)\n");
+
+    printf("\n4. \"SOURCE CODE\" of past year question (2069-2080)\n");
+
+    printf("\n5. \"Running consol\" of past year question (2069-2080)\n");
+
+    printf("\n6. \"Show the output\" type question solution (2069-2080)\n");
+
+wrongInput:
+
+    printf("\n\nEnter the category number to go to that section: ");
+
+    scanf("%d",&choice);
+
+    switch(choice)
+
+    {
+
+    case 1:
+
+        clrscr();
+
+        quesPast();
+
+        break;
+
+    case 2:
+
+        clrscr();
+
+        printf("2");
+
+        //  repeatQuestPastYear();
+
+        break;
+
+    case 3:
+
+        clrscr();
+
+        paliFiboArm();
+
+        break;
+
+    case 4:
+
+        clrscr();
+
+        printf("4");
+
+//   sourceCodeShow();
+
+        break;
+
+    case 5:
+
+        clrscr();
+
+        printf("5");
+
+//   consolRun();
+
+        break;
+
+    case 6:
+
+        clrscr();
+
+        printf("6");
+
+//    showOutputQuest();
+
+        break;
+
+    default:
+
+        printf("Choose number between 1-6");
+
+        goto wrongInput;
+
+        break;
+
+    }
+
+    return 0;
+
+}
+
+//Function of past year question all year.
+
+void quesPast()
+
+{
+
+    int year,decision;
+
+selectyear:
+
+    clrscr();
+
+    printf("Select the year:\n\n2080\t2079\t2078\n2077\t2076\t2075\n2074\t2073\t2072\n2071\t2070\t2069");
+
+    printf("Enter year: ");
+
+    scanf("%d",&year);
+
+    switch(year)
+
+    {
+
+    case 2080:
+
+        printf("Questions");
+
+        printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
+
+        scanf("%c",&decision);
+
+        if(decision=='c')
+
+        {
+
+            goto selectyear;
+
+        }
+
+        if(decision=='e')
+
+        {
+
+            clrscr();
+
+            printf("Exiting....");
+
+            exit(0);
+
+        }
+
+        if(decision=='b')
+
+        {
+
+            clrscr();
+
+            main();
+
+            break;
+
+        }
+
+    case 2079:
+
+        printf("Questions");
+
+        printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
+
+        scanf("%c",&decision);
+
+        if(decision=='c')
+
+        {
+
+            goto selectyear;
+
+        }
+
+        if(decision=='e')
+
+        {
+
+            clrscr();
+
+            printf("Exiting....");
+
+            exit(0);
+
+        }
+
+        if(decision=='b')
+
+        {
+
+            clrscr();
+
+            main();
+
+            break;
+
+        }
+
+    case 2078:
+
+        printf("Questions");
+
+        printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
+
+        scanf("%c",&decision);
+
+        if(decision=='c')
+
+        {
+
+            goto selectyear;
+
+        }
+
+        if(decision=='e')
+
+        {
+
+            clrscr();
+
+            printf("Exiting....");
+
+            exit(0);
+
+        }
+
+        if(decision=='b')
+
+        {
+
+            clrscr();
+
+            main();
+
+            break;
+
+        }
+
+    case 2077:
+
+        printf("Questions");
+
+        printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
+
+        scanf("%c",&decision);
+
+        if(decision=='c')
+
+        {
+
+            goto selectyear;
+
+        }
+
+        if(decision=='e')
+
+        {
+
+            clrscr();
+
+            printf("Exiting....");
+
+            exit(0);
+
+        }
+
+        if(decision=='b')
+
+        {
+
+            clrscr();
+
+            main();
+
+            break;
+
+        }
+
+    case 2076:
+
+        printf("Questions");
+
+        printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
+
+        scanf("%c",&decision);
+
+        if(decision=='c')
+
+        {
+
+            goto selectyear;
+
+        }
+
+        if(decision=='e')
+
+        {
+
+            clrscr();
+
+            printf("Exiting....");
+
+            exit(0);
+
+        }
+
+        if(decision=='b')
+
+        {
+
+            clrscr();
+
+            main();
+
+            break;
+
+        }
+
+    case 2075:
+
+        printf("Questions");
+
+        printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
+
+        scanf("%c",&decision);
+
+        if(decision=='c')
+
+        {
+
+            goto selectyear;
+
+        }
+
+        if(decision=='e')
+
+        {
+
+            clrscr();
+
+            printf("Exiting....");
+
+            exit(0);
+
+        }
+
+        if(decision=='b')
+
+        {
+
+            clrscr();
+
+            main();
+
+            break;
+
+        }
+
+    case 2074:
+
+        printf("Questions");
+
+        printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
+
+        scanf("%c",&decision);
+
+        if(decision=='c')
+
+        {
+
+            goto selectyear;
+
+        }
+
+        if(decision=='e')
+
+        {
+
+            clrscr();
+
+            printf("Exiting....");
+
+            exit(0);
+
+        }
+
+        if(decision=='b')
+
+        {
+
+            clrscr();
+
+            main();
+
+            break;
+
+        }
+
+    case 2073:
+
+        printf("Questions");
+
+        printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
+
+        scanf("%c",&decision);
+
+        if(decision=='c')
+
+        {
+
+            goto selectyear;
+
+        }
+
+        if(decision=='e')
+
+        {
+
+            clrscr();
+
+            printf("Exiting....");
+
+            exit(0);
+
+        }
+
+        if(decision=='b')
+
+        {
+
+            clrscr();
+
+            main();
+
+            break;
+
+        }
+
+    case 2072:
+
+        printf("Questions");
+
+        printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
+
+        scanf("%c",&decision);
+
+        if(decision=='c')
+
+        {
+
+            goto selectyear;
+
+        }
+
+        if(decision=='e')
+
+        {
+
+            clrscr();
+
+            printf("Exiting....");
+
+            exit(0);
+
+        }
+
+        if(decision=='b')
+
+        {
+
+            clrscr();
+
+            main();
+
+            break;
+
+        }
+
+    case 2071:
+
+        printf("Questions");
+
+        printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
+
+        scanf("%c",&decision);
+
+        if(decision=='c')
+
+        {
+
+            goto selectyear;
+
+        }
+
+        if(decision=='e')
+
+        {
+
+            clrscr();
+
+            printf("Exiting....");
+
+            exit(0);
+
+        }
+
+        if(decision=='b')
+
+        {
+
+            clrscr();
+
+            main();
+
+            break;
+
+        }
+
+    case 2070:
+
+        printf("Questions");
+
+        printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
+
+        scanf("%c",&decision);
+
+        if(decision=='c')
+
+        {
+
+            goto selectyear;
+
+        }
+
+        if(decision=='e')
+
+        {
+
+            clrscr();
+
+            printf("Exiting....");
+
+            exit(0);
+
+        }
+
+        if(decision=='b')
+
+        {
+
+            clrscr();
+
+            main();
+
+            break;
+
+        }
+
+    case 2069:
+
+        printf("Questions");
+
+        printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
+
+        scanf("%c",&decision);
+
+        if(decision=='c')
+
+        {
+
+            goto selectyear;
+
+        }
+
+        if(decision=='e')
+
+        {
+
+            clrscr();
+
+            printf("Exiting....");
+
+            exit(0);
+
+        }
+
+        if(decision=='b')
+
+        {
+
+            clrscr();
+
+            main();
+
+            break;
+
+        }
+
+    default:
+
+        printf("\nPlease enter date in between 2080-2069");
+
+        goto selectyear;
+
+        break;
+
+    }
+
+}
+
+//palindrome Fibonacci Armstrong questions and solution function 
+
+void paliFiboArm()
+
+{
+
+    char[3] opt,armopt;
+
+    int num,n1,n2,numarm,z=0,count=0,temp;
+
+start:
+
+    clrscr();
+
+    printf("Questions");
+
+palfibarmhome:
+
+    clrs();
+
+    printf("\n\nFor source code enter \"s\" for code execution enter \"exe\": ");
+
+    scanf("%s",&opt);
+
+    switch(opt)
+
+    {
+
+    case 's':
+
+        printf("Questions");
+
+        printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
+
+        scanf("%c",&decision);
+
+        if(decision=='c')
+
+        {
+
+            goto selectyear;
+
+        }
+
+        if(decision=='e')
+
+        {
+
+            clrscr();
+
+            printf("Exiting....");
+
+            exit(0);
+
+        }
+
+        if(decision=='b')
+
+        {
+
+            clrscr();
+
+            main();
+
+            break;
+
+        }
+
+    case "exe":
+
+        printf("Questions");
+
+        printf("\n\nEnter question number of that code: ");
+
+        scanf("%d",&num);
+
+        if(num==1)
+
+        {
+
+            printf("To generate fibonacci series less that 500\n\n");
+
+            printf("Enter two number: ");
+
+            scanf("%d%d",&n1,&n2);
+
+            while(series<500)
+
+            {
+
+                series=n1+n2;
+
+                if(series<500)
+
+                {
+
+                    printf("%d, ",series);
+
+                    n1=n2;
+
+                    n2=series;
+
+                }
+
+                else
+
+                {
+
+                    break;
+
+                }
+
+            }
+
+            printf("\n\n\Enter \"m\" for this section main menu or \"h\" for homescreen\n enter any character to exit the program: ");
+
+            scanf("%c",armopt);
+
+            if(armopt=='m')
+
+            {
+
+                goto start;
+
+            }
+
+            else if(armopt=='h')
+
+            {
+
+                main();
+
+            }
+
+            else
+
+            {
+
+                exit(0);
+
+            }
+
+            break;
+
+        }
+
+        else if(num==2)
+
+        {
+
+            printf("To check the given number is Armstrong number or not\n\n");
+
+            printf("Enter number: ");
+
+            scanf("%d",numarm);
+
+            temp=numarm;
+
+            while(temp!=0)
+
+            {
+
+                temp=temp/10;
+
+                count++;
+
+            }
+
+            temp1=numarm;
+
+            while(temp1!=0)
+
+            {
+
+                rem=temp1%10;
+
+                z=z+pow(rem,count);
+
+                temp1=temp1/10;
+
+            }
+
+            if(z==numarm)
+
+            {
+
+                printf("%d is Armstrong number!",z);
+
+            }
+
+            else
+
+            {
+
+                printf("%d isn't Armstrong number!",z);
+
+            }
+
+            printf("\n\n\Enter \"m\" for this section main menu or \"h\" for homescreen\n enter any character to exit the program: ");
+
+            scanf("%c",armopt);
+
+            if(armopt=='m')
+
+            {
+
+                goto start;
+
+            }
+
+            else if(armopt=='h')
+
+            {
+
+                main();
+
+            }
+
+            else
+
+            {
+
+                exit(0);
+
+            }
+
+            break;
+
+        }
+
+        else if(num==3)
+
+        {
+
+//remaining is coming soon!
+
+        }
+
+    default:
+
+        printf("\n\nInvalid Input");
+
+        goto palfibarmhome;
+
+        break;
+
+    }
+
+}
+
+    
