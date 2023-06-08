@@ -109,4 +109,8 @@ H
 
 OR
 ->  Write a program, taking care of all the possible error condition that may occur, to open a new file name DATA that reads  integers from user until user say “no”. After reading the data write all the odd numbers to a file called ODD  and all the even number to file called EVEN. [2069 Chaitra]
-    OR
+    .................
+    
+ 
+ -> Write a program to read a string from user and use a user defined function  to copy the content of the read string into another character array changing lowercase letter to upper if any. Use pointer to process the string.    [2070 Ashad]
+        OR
