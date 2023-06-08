@@ -42,14 +42,16 @@
 -----------------
 
 -> Calculate a structure called "student" with data member name,address and id.pass structure to function and sort the information of student on the basis of alpahabetical order of "name" and display the result in main() function.[2078 Kartik]
-
 OR
-
 -> creat a structure named student that has name, roll and marks as members. assume appropriate types and size of members. use this structure to read and display records of students. create two functions: one is to read information of students and other to display the information.   [2074 Chaitra]
-
+............................................
 
 
 > Write a programe  to create a structure named "Student" having memers Roll,Name, Address and Marks.Use this structure to read the information of 48 students in a class and display the information of only those students whose marks is between 50 and 70..[2080 Bahisakh]
+     OR
+ -> Write a program in C to read the following information from 96 students:
+Studentd Name, Student roll number, Maeks obtained (in 100).
+Record all data in “ioe.txt” file, and programs will be print roll number and name of the Student who have obtained greater than or equal to 40 marks. [2069 Ashad]
 
 
 
