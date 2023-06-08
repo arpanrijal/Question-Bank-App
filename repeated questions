@@ -149,7 +149,9 @@ OR
 -> write a program to read a 3*3 square matrix, find minimum integer value of matrix, replace the diagonal elements by the maximum element and display using pointer.[2072 Chaitra ]
 ,..............................................
 
+-> write a program to read structure "college" having name, estDate and location where estDate is an another structure having day, month and year as members. Display the records of 10 colleges?    [2072 Chaitra]
 
+OR
 
 
 
