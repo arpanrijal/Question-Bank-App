@@ -108,4 +108,5 @@ H
 -> write a program in a C to read integer from the user until the user says "no" after reading the data write all the odd numbers to a file name odd.txt and all even number to file named even.txt?    [2074 Ashwin]
 
 OR
-
+->  Write a program, taking care of all the possible error condition that may occur, to open a new file name DATA that reads  integers from user until user say “no”. After reading the data write all the odd numbers to a file called ODD  and all the even number to file called EVEN. [2069 Chaitra]
+    OR
