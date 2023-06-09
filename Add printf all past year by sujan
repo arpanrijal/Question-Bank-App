@@ -1,1 +1,80 @@
 #add printf of all past year question 
+
+#2076ashwin to 2080
+-> Write a programe to print all the roots(Even imaginary roots) of quadratic equation.[2076 Chaitra]
+
+-> Write a programe  to find the sum of numbers from 1 to 100 which are exactly divisible by 5 and not by 3.[2076 Chaitra]
+
+-> Write a programe to find the recursive function segment that returns the sum of numbers from 1 to n given by  the user.[2076 Chaitra]
+
+-> Write a programe  to find the largest and smallest elements of an array using a single function and display the result in calling function.[2076 Chaitra]
+
+-> Write a programe  that reads name,roll numbers,program and marks obtained in five subjects by students until the user 'e' and display the students detail and total marks obtained by each students.[2076 Chaitra]
+
+-> Write a programe  to read a string,write it into a file and display the content of a file into a screen.[2076 Chaitra]
+
+-> Write a programe  that behaves strcpy() function using pointer as arguement.[2076 Chaita]
+
+-> Write a programe  to evaluate the following series
+  cos(x)=1-x^2/2! +x^4/4! -x^6/6!.......+n terms[2078 Kartik]
+
+-> Write a programe  to insert an element to a desired position to an array using function.[2078 Kartik]
+
+-> Write a programe  a C program that uses pointer to reoresent two 2-D array of size of m*n and p*q respectively.Find the product of these two matrices of possible otherwise display a messege "calculation cannot be performed" using function.[2078 Kartik]
+
+-> Calculate a structure called "student" with data member name,address and id.pass structure to function and sort the information of student on the basis of alpahabetical order of "name" and display the result in main() function.[2078 Kartik]
+
+-> Write a programe  to create a new file named "employee.dat" which consist the information of 10 employees.Employee information includes empName,salary and post.Read the file bacck to search the word "manager".[2078 Kartik]
+
+-> Write a programe  to check whether an entered word is a palindrome or not without using library function..[2078 Kartik]
+
+-> Write a programe  to calculate the sum of digits of a given number unless the sum becomes a single digit using recursion .[2078 Kartik]
+
+-> Write a programe  which display following pattern.[2078 Kartik]
+H
+HE
+HEL
+HELL
+HELLO
+HELL
+HEL
+HE 
+H
+-> Write a programe  to read a structure named "faculty" having StaffID,Name,Address and ServiceYear as member.Where ServiceYear is another structure having DurationInYear as member .Now display the details of those faculties whose service duration is more than 10 and less than 30 years..[2078 Kartik]
+
+-> Write a programe  to write the name, roll no, and age of five students into a disk file name "STUDENT.DAT"..[2078 Kartik]
+
+-> Write a programe  to find the following sum of following series up to n terms. [2079 Baishakh]
+
+sum = 1+x^1/1!+x^2/2!+x^3/3!+......
+
+-> Write a programe to generate Fibonacci series up to n terms. You need to make a recursive function  to generate  the each term of Fibonacci series.[2079 Baishakh]
+
+-> Write a programe  to display the addition of two matrix.Your programe should include one function named input to enter the values of two matrix, one function named add to perform addtion of two matrix and one function named display to show the result obtained after addition of two matrix.[2079 Baishakh]
+
+-> Write a programe  that uses this structure to input  start time and stop time. Pass structures to a function by reference that calculates the sum  and difference of start and stop time.Display the sum and difference from calling functions.[2079 Baishakh]
+
+-> Write a programe  to read a string containing letters,numbers and special characters,tranfers only letters contained in it into another string using pointer, finally display the second string containing only alphabets.[2079 Baishakh]
+
+-> Write a programe that reads numbers from a file containing series of numbers and seperates odd numbers from even numbers and writes them on two seperate files.[2079 Baishakh]
+
+-> Write a programe  to evalute the following series until the term value becomes less than 10^-6: [2079 Bhadra]
+cos(x)=1-x^2/2!+x^4/4!-X^6/6!+x^8/8!.....
+
+-> Write a programe  to read a string from the user.Pass the string to a function and sort the alphabets in descending order.For examples,if the user entererd "exam" then the programe should display"xmea". [2079 Bhadra]
+
+-> Write a programe  to find the frequency of a number in array.[2079 Bhadra]
+
+-> Write a programe  to create a structure book with its member name price and author. Read 10 records from user write it to a file named "book.dat". Read information from book.dat file,search author name"Gotterfried",If found copy the records to a file "gotterfried.dat"[2079 Bhadra]
+
+-> Write a programe to read an integer 'd' from the user. If 'd' is the radius of a circular ground in meters, then this program should calculate and display the area of the circle in square meter.[2080 Bahisakh]
+
+-> Write a programe  to find sum of first 10 natural numbers using recursion.[2080 Bahisakh]
+
+-> Write a programe  to read marks of 48 students in a class and display the second highest mark.[2080 Bahisakh]
+
+-> Write a programe  to create a structure named "Student" having memers Roll,Name, Address and Marks.Use this structure to read the information of 48 students in a class and display the information of only those students whose marks is between 50 and 70..[2080 Bahisakh]
+
+-> Write a programe  that uses pointer to read m*n from user.Pass it to function that finds the transpose of the matrix..[2080 Bahisakh]
+
+-> Write a programe  to read the name,year_of_release, and language of 3 movies.Save the movie data of all 'English' language movies in a data file..[2080 Bahisakh]
