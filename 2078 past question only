@@ -1,0 +1,30 @@
+#2078 past year question
+	printf("-> Write a programe  to evaluate the following series\n  ");
+	printf ("  cos(x)=1-x^2/2! +x^4/4! -x^6/6!.......+n terms[2078 Kartik]\n\n");
+
+	printf("-> Write a programe  to insert an element to \n   a desired position to an array using function.[2078 Kartik]\n\n");
+
+	printf("-> Write a programe  a C program that uses pointer to reoresent two 2-D array\n   of size of m*n and p*q respectively.Find the product of these\n   two matrices of possible otherwise display a messege \"calculation cannot be performed\" using function.[2078 Kartik]\n\n");
+
+	printf("-> Calculate a structure called \"student\" with data member name,address and\n   id.pass structure to function and sort the information of\n   student on the basis of alpahabetical order of \"name\" and display the result in main() function.[2078 Kartik]\n\n");
+
+	printf("-> Write a programe  to create a new file named \"employee.dat\" which \n   consist the information of 10 employees.Employee information\n   includes empName,salary and post.Read the file bacck to search the word \"manager\".[2078 Kartik]\n\n");
+
+	printf("-> Write a programe  to check whether an entered word \n   is a palindrome or not without using library function..[2078 Kartik]\n\n");
+
+	printf("-> Write a programe  to calculate the sum of digits of a given\n   number unless the sum becomes a single digit using recursion .[2078 Kartik]\n\n");
+
+	printf("-> Write a programe  which display following pattern.[2078 Kartik]\n");
+	printf("\tH\n");
+	printf("\tHE\n");
+	printf("\tHEL\n");
+	printf("\tHELL\n");
+	printf("\tHELLO\n");
+	printf("\tHELL\n");
+	printf("\tHEL\n");
+	printf("\tHE\n"); 
+	printf("\tH\n");
+
+	printf("-> Write a programe  to read a structure named \"faculty\" having StaffID,Name,Address \n   and ServiceYear as member.Where ServiceYear is another structure\n   having DurationInYear as member .Now display the details\n   of those faculties whose service duration is more than 10 and less than 30 years..[2078 Kartik]\n\n");
+
+	printf("-> Write a programe  to write the name, roll no, \n   and age of five students into a disk file name \"STUDENT.DAT\"..[2078 Kartik]\n\n");
