@@ -74,8 +74,19 @@ selectyear:
     switch(year)
     {
     case 2080:
-        printf("Questions");
-        printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
+        printf("1. Write a programe to read an integer 'd' from the user. \n   If 'd' is the radius of a circular ground in meters, then\n   this program should calculate and display the\n   area of the circle in square meter.[2080 Bahisakh]\n\n");
+
+		printf("2. Write a programe  to find sum of first 10 natural numbers\n   using recursion.[2080 Bahisakh]\n\n");
+	
+		printf("3. Write a programe  to read marks of 48 students \n   sin a class and display the second highest mark.[2080 Bahisakh]\n\n");
+
+		printf("4. Write a programe  to create a structure named \"Student\" \n   having memers Roll,Name, Address \n   and Marks.Use this structure to read the information of\n   48 students in a class and display the information of only\n   those students whose marks is between 50 and 70..[2080 Bahisakh]\n\n");
+
+		printf("5. Write a programe  that uses pointer to read m*n from user.\n   Pass it to function that finds the transpose of the matrix..[2080 Bahisakh]\n\n");
+
+		printf("6. Write a programe  to read the name,year_of_release, and \n   language of 3 movies.Save the movie data of\n   all 'English' language movies in a data file..[2080 Bahisakh]\n\n");
+        
+		printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
         scanf("%c",&decision);
         if(decision=='c')
         {
@@ -94,8 +105,30 @@ selectyear:
             break;
         }
     case 2079:
-        printf("Questions");
-        printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
+        
+		printf("-> Write a programe  to find the following sum of following series up to n terms. [2079 Baishakh]\n\n");
+
+		printf("   sum = 1+x^1/1!+x^2/2!+x^3/3!+......\n\n");
+
+		printf("-> Write a programe to generate Fibonacci series up to n terms. You need to make a \n   recursive function  to generate  the each term of Fibonacci series.[2079 Baishakh]\n\n");
+
+		printf("-> Write a programe  to display the addition of two matrix.Your programe should include \n   one function named input to enter the values of two matrix, \n   one function named add to perform addtion of two matrix and one function named \n   sdisplay to show the result obtained after addition of two matrix.[2079 Baishakh]\n\n");
+
+		printf("-> Write a programe  that uses this structure to input  start time and stop time. Pass structures\n   to a function by reference that calculates \n   the sum  and difference of start and stop time.\n   Display the sum and difference from calling functions.[2079 Baishakh]\n\n");
+
+		printf("-> Write a programe  to read a string containing letters,numbers and special characters,tranfers only letters \n   contained in it into another string using pointer, finally display \n   the second string containing only alphabets.[2079 Baishakh]\n\n");
+
+		printf("-> Write a programe that reads numbers from a file containing series of numbers and seperates \n   odd numbers from even numbers and writes them on two seperate files.[2079 Baishakh]\n\n");
+
+		printf("-> Write a programe  to evalute the following series until\n   the term value becomes less than 10^-6: [2079 Bhadra]\n\n");
+		
+		printf("   cos(x)=1-x^2/2!+x^4/4!-X^6/6!+x^8/8!.....\n\n");
+
+		printf("-> Write a programe  to read a string from the user.\n   Pass the string to a function and sort the alphabets \n   in descending order.For examples,if the user\n   entererd \"exam\" then the programe should display \"xmea\". [2079 Bhadra]\n\n");
+
+		printf("-> Write a programe  to find the frequency of a number in array.[2079 Bhadra\n\n]");
+        
+		printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
         scanf("%c",&decision);
         if(decision=='c')
         {
@@ -114,8 +147,38 @@ selectyear:
             break;
         }
     case 2078:
-        printf("Questions");
-        printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
+        printf("-> Write a programe  to evaluate the following series\n  ");
+		
+		printf ("  cos(x)=1-x^2/2! +x^4/4! -x^6/6!.......+n terms[2078 Kartik]\n\n");
+
+		printf("-> Write a programe  to insert an element to \n   a desired position to an array using function.[2078 Kartik]\n\n");
+
+		printf("-> Write a programe  a C program that uses pointer to reoresent two 2-D array\n   of size of m*n and p*q respectively.Find the product of these\n   two matrices of possible otherwise display a messege \"calculation cannot be performed\" using function.[2078 Kartik]\n\n");
+
+		printf("-> Calculate a structure called \"student\" with data member name,address and\n   id.pass structure to function and sort the information of\n   student on the basis of alpahabetical order of \"name\" and display the result in main() function.[2078 Kartik]\n\n");
+
+		printf("-> Write a programe  to create a new file named \"employee.dat\" which \n   consist the information of 10 employees.Employee information\n   includes empName,salary and post.Read the file bacck to search the word \"manager\".[2078 Kartik]\n\n");
+
+		printf("-> Write a programe  to check whether an entered word \n   is a palindrome or not without using library function..[2078 Kartik]\n\n");
+
+		printf("-> Write a programe  to calculate the sum of digits of a given\n   number unless the sum becomes a single digit using recursion .[2078 Kartik]\n\n");
+		//question of pattern generation start
+		printf("-> Write a programe  which display following pattern.[2078 Kartik]\n");
+		printf("\tH\n");
+		printf("\tHE\n");
+		printf("\tHEL\n");
+		printf("\tHELL\n");
+		printf("\tHELLO\n");
+		printf("\tHELL\n");
+		printf("\tHEL\n");
+		printf("\tHE\n"); 
+		printf("\tH\n");
+		//question of patter generation end
+		printf("-> Write a programe  to read a structure named \"faculty\" having StaffID,Name,Address \n   and ServiceYear as member.Where ServiceYear is another structure\n   having DurationInYear as member .Now display the details\n   of those faculties whose service duration is more than 10 and less than 30 years..[2078 Kartik]\n\n");
+
+		printf("-> Write a programe  to write the name, roll no, \n   and age of five students into a disk file name \"STUDENT.DAT\"..[2078 Kartik]\n\n");
+        
+		printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
         scanf("%c",&decision);
         if(decision=='c')
         {
@@ -134,13 +197,9 @@ selectyear:
             break;
         }
     case 2077:
-        printf("Questions");
-        printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
+        printf("No physical exam held by IOE");
+        printf("\n\nPress \"b\" to go to home screen and press \"e\" to exit the program: ");
         scanf("%c",&decision);
-        if(decision=='c')
-        {
-            goto selectyear;
-        }
         if(decision=='e')
         {
             clrscr();
@@ -154,8 +213,22 @@ selectyear:
             break;
         }
     case 2076:
-        printf("Questions");
-        printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
+        
+		printf("-> Write a programe to print all the roots(Even imaginary roots) \n   of quadratic equation.[2076 Chaitra]\n\n");
+
+		printf("-> Write a programe to find the sum of numbers from 1 to 100 \n   which are exactly divisible by 5 and not by 3.[2076 Chaitra]\n\n");
+
+		printf("-> Write a programe to find the recursive function segment that returns the \n   sum of numbers from 1 to n given by  the user.[2076 Chaitra]\n\n");
+
+		printf("-> Write a programe  to find the largest and smallest elements of an array\n   using a single function and \n   display the result in calling function.[2076 Chaitra]\n\n");
+
+		printf("-> Write a programe  that reads name,roll numbers,program \n   and marks obtained in five subjects by students until\n   the user 'e' and display the students detail and total marks obtained by each students.[2076 Chaitra]\n\n");
+
+		printf("-> Write a programe  to read a string,write it into\n   a file and display the content of a file into a screen.[2076 Chaitra]\n\n");
+
+		printf("-> Write a programe  that behaves strcpy()\n   function using pointer as arguement.[2076 Chaita]\n\n");
+        
+		printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
         scanf("%c",&decision);
         if(decision=='c')
         {
@@ -560,7 +633,6 @@ startshowoutput:
 
 
 // 
-
 
 
 
