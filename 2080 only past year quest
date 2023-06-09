@@ -1,4 +1,16 @@
 # 2080 quest only
 
+printf("-> Write a programe to read an integer 'd' from the user. \n   If 'd' is the radius of a circular ground in meters, then\n   this program should calculate and display the\n   area of the circle in square meter.[2080 Bahisakh]\n\n");
+
+	printf("-> Write a programe  to find sum of first 10 natural numbers\n   using recursion.[2080 Bahisakh]\n\n");
+	
+	printf("-> Write a programe  to read marks of 48 students \n   sin a class and display the second highest mark.[2080 Bahisakh]\n\n");
+
+	printf("-> Write a programe  to create a structure named \"Student\" \n   having memers Roll,Name, Address \n   and Marks.Use this structure to read the information of\n   48 students in a class and display the information of only\n   those students whose marks is between 50 and 70..[2080 Bahisakh]\n\n");
+
+	printf("-> Write a programe  that uses pointer to read m*n from user.\n   Pass it to function that finds the transpose of the matrix..[2080 Bahisakh]\n\n");
+
+	printf("-> Write a programe  to read the name,year_of_release, and \n   language of 3 movies.Save the movie data of\n   all 'English' language movies in a data file..[2080 Bahisakh]\n\n");
+
 
 
