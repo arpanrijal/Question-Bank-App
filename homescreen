@@ -632,7 +632,98 @@ startshowoutput:
 
 
 
-// 
+// function of repeatQuestPastYear() 
+
+void repeatQuestPastYear()
+{
+ char opt2;
+    int sourCode,I,j,k;
+topCode:
+    printf("Questions");
+    printf("\n\nFor source code enter \"s\" for code execution enter \"e\": ");
+    scanf("%s",&opt2);
+    switch(opt1)
+    {
+    case 's':
+        clrscr();
+        printf("source code question show");
+        printf("Enter the number of which you want to see: ");
+        scanf("%d",&sourCod);//total source code is 12
+        if(sourCode==1)
+        {
+
+        }
+        break;
+    case 'e':
+        clrscr();
+        printf("source code question show");
+starreptquest:
+        printf("Enter the number of which you want to see: ");
+        scanf("%d",&sourCode);//total source code is 12
+        if(sourCode==1)
+        {
+
+        }
+        else if(sourCode==2)
+        {
+
+        }
+        else if(sourCode==3)
+        {
+
+        }
+        else if(sourCode==4)
+        {
+
+        }
+        else if(sourCode==5)
+        {
+
+        }
+        else if(sourCode==6)
+        {
+
+        }
+        else if(sourCode==7)
+        {
+
+        }
+        else if(sourCode==8)
+        {
+
+        }
+        else if(sourCode==9)
+        {
+
+        }
+        else if(sourCode==10)
+        {
+
+        }
+        else if(sourCode==11)
+        {
+
+        }
+        else if(sourCode==12)
+        {
+
+        }
+        else
+        {
+            printf("Invalid Input please enter num between 1-12!");
+            goto starreptquest;
+        }
+        break;
+    default:
+        printf("Enter \"e\" for execution of code and \"s\" for source code");
+        goto topCode;
+
+    }
+
+}
+
+
+
 
 
 
