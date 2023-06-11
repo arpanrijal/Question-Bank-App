@@ -1,0 +1,127 @@
+#question of 2074
+
+printf("-> write down the output of the print() function\n   for the following sections of the statements?   [2074 Chaitra]\n\n"); 
+
+  
+
+           printf("\tfloat a = 5.7891;\n"); 
+
+  
+
+           printf("\tint b = 6789;\n"); 
+
+  
+
+           printf("\tprintf(\"a=%4f and b=%-7d from the first line\",a,b);\n"); 
+
+  
+
+           printf("\tprintf(\"a=%-7.2f and b=%07d from the second line\",a,b);\n"); 
+
+  
+
+         printf("\t printf(\"a=%.2f and b=%2d from the third line\",a,b);\n"); 
+
+  
+
+ printf("-> write a program to convert a decimal into a binary number?    [2074 Chaitra]\n\n"); 
+
+  
+
+ printf("-> write a program to read a mxn matrix of integers and to find the largest elements \n   of each row. Store the largest elements of the row in a one dimensional \n   array of m integers before displaying them?   [2074 Chaitra]\n\n"); 
+
+  
+
+ printf("-> create a structure named student that has name, roll and marks as members.\n   assume appropriate types and size of members. use this structure to read and display\n   records of students. create two functions: one is to read information of students \n   and other to display the information.   [2074 Chaitra]\n\n"); 
+
+  
+
+ printf("-> write a program to copy the content of one file source.txt\n   to another destination.txt?   [2074 Chaitra]\n\n"); 
+
+  
+
+ printf("-> rewrite the following program by correcting any errors, if \n   present and also write down the output of the corrected code?    [2074 Ashwin]\n\n"); 
+
+  
+
+                 printf("\tDefine MAX'S'\n"); 
+
+  
+
+                 printf("\tint main(){"); 
+
+  
+
+                 printf("\tint case[MAX]={2,3,5,4,10},i,sum=0;\n"); 
+
+  
+
+             printf("\tfor(i=0,i<MAX,i+=1) {\n"); 
+
+  
+
+         printf("\t printf(\"case %d=%3.2d\",I,case[i]);\n"); 
+
+  
+
+                printf(" \tsum+=*case+i; };\n"); 
+
+  
+
+              printf("\taverage=sum/MAX;\n"); 
+
+  
+
+             printf("\tprintf(\"%06.2f\",average);\n"); 
+
+  
+
+             printf("\treturn 1;}\n"); 
+
+  
+
+ printf("-> write a program in a c to generate following patterns using\n   unformatted input/output functions only?    [2074 Ashwin]\n"); 
+
+  
+
+        printf("\tN\n"); 
+
+  
+
+         printf(" \te e e\n"); 
+
+  
+
+        printf(" \tP P P P P\n"); 
+
+  
+
+             printf(" \ta a a a a a a\n"); 
+
+  
+
+         printf(" \tL L L L L L L L L \n"); 
+
+  
+
+ printf("-> write a program in C to find out whether the nth term of the Fibonacci series\n   is a prime number or not. Read the value of n from the user and display\n   the result in the main function. Use separate user-defined functions\n   to generate the nth  Fibonacci term and to check whether a number its prime or not?     [2074 Ashwin]\n\n"); 
+
+  
+
+ printf("-> write a program to read the square matrix of \n   size NxN and sum of both diagonals?     [2074 Ashwin]\n\n"); 
+
+  
+
+ printf("-> write a program in C to check whether a given string is palindrome \n   or not using user defined function?    [2074 Ashwin]\n\n"); 
+
+  
+
+ printf("-> write a program in a C to find second largest elements from\n   an array counting N elements using concept of pointer?    [2074 Ashwin]\n\n"); 
+
+  
+
+ printf("-> write a program that uses the structure to read two complex numbers and\n   display a third complex number which is the multiplication of the entered complex numbers?    [2074 Ashwin]\n\n"); 
+
+  
+
+ printf("-> write a program in a C to read integer from the user \n   until the user says \"no\" after reading the data write all the \n   odd numbers to a file name odd.txt and all even number to file named even.txt?    [2074 Ashwin]\n\n");
