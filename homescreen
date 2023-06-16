@@ -65,7 +65,8 @@ wrongInput:
 //Function of past year question all year.
 void quesPast()
 {
-    int year,decision;
+    int year;
+    char decision;
 selectyear:
     clrscr();
     printf("Select the year:\n\n2080\t2079\t2078\n2077\t2076\t2075\n2074\t2073\t2072\n2071\t2070\t2069");
@@ -1184,3 +1185,4 @@ starreptquest:
 
 
 
+    
