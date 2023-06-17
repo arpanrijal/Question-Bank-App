@@ -1,4 +1,4 @@
-#MAIN PROJECT
+/*#MAIN PROJECT*/
 
 
 #include<stdio.h>
@@ -16,6 +16,7 @@ void quesPast();
 //void pali_Fibo_Arm();
 
 void repeatQuestPastYear();
+ void showOutputQuest();
 
 int main()
 
@@ -101,7 +102,7 @@ int main()
 
            break; */
 
-    /*   case 6:
+       case 6:
 
             ("cls");
 
@@ -109,7 +110,7 @@ int main()
 
            showOutputQuest();
 
-           break; */
+           break; 
 
     default:
 
@@ -742,7 +743,7 @@ selectyear:
 
         printf("1. Write a program to calculate the sum of the series 1+11+11l+....+\n   up to N terms using recursive function.If N is read as 5,the series\n   is:1+11+111+1111+11111. [ 2072 Kartik ]\n\n");
 
-        printf("2. Write a program to find the sum of series Sn= Σ(l/n^2) upto N term.[ 2072 Kartik]\n\n");
+        printf("2. Write a program to find the sum of series Sn= S(l/n^2) upto N term.[ 2072 Kartik]\n\n");
 
         printf("3. Write a program to read a word from a main function, pass it into a function\n   that will convert all of its characters into upper case if the first character\n   is in lower case and into lower case if the first character is in upper case\n   Display the converted string from main function.[ 2072 Kartik ]\n\n");
 
@@ -1257,6 +1258,187 @@ selectyear:
 
 
      }
+
+
+
+    void showOutputQuest( )
+     
+     {
+         int j;
+         char decision;
+
+        printf("1. Rewrite the following program by correcting any syntactical errors,\n if present.Also show the output of the corrected code.  [2070 Ashad]\n");
+             printf(" #include<stdio.h>\n");
+              
+              printf("int main()\n");
+              
+              printf("{  float root, int i=1;\n");
+                  
+                  printf("do{ sum=2i-1;\n");
+                  
+                         printf("print(\"\t%d\n\",sum);\n");
+                      
+                         printf(" i*=5/3;}\n"); 
+                   printf("while (sum<=15)\n");
+                  
+                  printf(" root=pow(i,1/2);\n");
+                  
+                   printf("print(\"n%.3f\",root\");\n");
+                  
+                 printf("return void; }\n");
+              
+              
+              
+		
+		printf("2. what will the output of the following program explain?   [2075 Ashwin]\n\n");
+
+	printf("\t#include<studio.h>\n");
+
+	printf("\tint main(){\n");
+
+	printf("\tif(!NULL)\n");
+
+    printf("\t printf(\"C programming is easy\");\n");
+
+	printf("\telse");
+	
+	printf(" \tprintf(\"C programming is not easy\");\n");
+	
+	printf("\treturn 0;}\n");
+	
+	
+	
+	printf("3. write down the output of the print() function\n   for the following sections of the statements?   [2074 Chaitra]\n\n");
+
+          printf("\tfloat a = 5.7891;\n");
+
+          printf("\tint b = 6789;\n");
+
+          printf("\tprintf(\"a=%4f and b=%-7d from the first line\",a,b);\n");
+
+          printf("\tprintf(\"a=%-7.2f and b=%07d from the second line\",a,b);\n");
+
+        printf("\t printf(\"a=%.2f and b=%2d from the third line\",a,b);\n");
+
+
+
+
+printf("4. rewrite the following program by correcting any errors, if \n   present and also write down the output of the corrected code?    [2074 Ashwin]\n\n");
+
+		printf("\tDefine MAX'S'\n");
+
+		printf("\tint main(){");
+   				
+		printf("\tint case[MAX]={2,3,5,4,10},i,sum=0;\n");
+
+    	printf("\tfor(i=0,i<MAX,i+=1) {\n");
+
+        printf("\t printf(\"case %d=%3.2d\",I,case[i]);\n");
+
+       	printf(" \tsum+=*case+i; };\n");
+
+     	printf("\taverage=sum/MAX;\n");
+
+    	printf("\tprintf(\"%06.2f\",average);\n");
+
+    	printf("\treturn 1;}\n");
+    	
+    	
+    	
+    	 printf("5. Rewrite the following source code correcting  any error present in it. Also indicate the \n   corrected in comment. Then write the output of the program.[2069 Ashad]\n");
+    printf("  //program to convert list of temperatures\n");
+    printf("  //in Centigrade to Fahrenheit\n");
+    printf("  #include sidio.h;\n");
+    printf("  int main()\n");
+    printf("  {\n");
+    printf("    int i, n=3;\n");
+    printf("    float celc[n], faren[n];\n");
+    printf("    for(i=0: i<n; i++)\n");
+    printf("      {\n");
+    printf("        Print ( \"Celc[%d] =\" )\n");
+    printf("        scanf(\"%d\", ceic[i]);\n");
+    printf("      }\n");
+    printf("        convert (celc, faren, n);\n");
+    printf("        for(i=0; i<n; i++) print(faren[i]);\n");
+    printf("        break;\n");
+    printf("  };\n");
+    printf("       void convert,(float ce1[],, float far[], int n)\n");
+    printf("        {\n");
+    printf("          for(i=0; i<n,. i++) cel2far(far[i], cel[i]);\n");
+    printf("        };\n");
+    printf("         cel2far(float f, float c)\n");
+    printf("         {     f =9/5*c+32; };\n\n");
+    
+    
+      printf("6. Give the output of the following program and justify your answer with reason.[2069 Chaitra]\n");
+    printf("#include<stdio.h>\n");
+    printf("int main()\n");
+    printf("{\n");
+     printf("  int x=3 ,y=5.z=7;\n");
+     printf("  int a,b;\n");
+     printf("  a=x*2 + y/5 - z*y;\n");
+     printf("  b= ++x *(y-3)/2-z++*y;\n");
+     printf("  printf(\"a=%d\",a);\n");
+     printf("  printf(\"b=%d\",b);\n");
+     printf("  retun 0;\n");
+    printf("}\n\n");
+    
+    
+
+
+    //user choice selection
+
+        printf("\n\n press \"b\" to go to home screen and press \"e\" to exit the program: ");
+
+        scanf(" %c",&decision);
+
+
+
+        if(decision=='e')
+
+        {
+
+            system("cls");
+
+            for(j=3; j>=1; j--)
+
+            {
+
+            printf("Exiting.... in %dsec",j);
+
+            fflush(stdout); // Flush the output buffer to display the message immediately
+
+            sleep(1); // Sleep for 3 seconds
+             system("cls");
+
+
+           }
+
+            system("cls");
+
+           // system("kill -9 $$");
+
+           printf("Exit Successful.\nPress any key to close the terminal!\n\n");
+
+            exit(0);
+
+        }
+
+        if(decision=='b')
+
+        {
+
+             system("cls");
+
+            main();
+
+        }
+
+
+
+     }
+
+
 
 
 
