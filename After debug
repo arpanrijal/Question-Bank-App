@@ -1,3 +1,8 @@
+
+
+
+
+
 #include<stdio.h>
 
 #include<stdlib.h>
@@ -18,11 +23,11 @@ int main()
 
     int choice;
 
-    clrscr();
+    system("cls");
 
-  //  printf("---------------------------------------\n");
+    printf("---------------------------------------\n");
 
-  //  printf("Word By Devs:\tWelcome to Er.C solution App.\n\t\tThis app is made to help\n\t\tstudent who want to learn c\n\t\tprogramming easily.\n\t\twe provide you the full\n\t\tsolution so it helps you in\n\t\tour exam.\n\n");
+     printf("Word By Devs:\tWelcome to Er.C solution App.\n\t\tThis app is made to help\n\t\tstudent who want to learn c\n\t\tprogramming easily.\n\t\twe provide you the full\n\t\tsolution so it helps you in\n\t\tour exam.\n\n");
 
     printf("Developer:\tArpan,Sugam,Sujan\n");
 
@@ -40,13 +45,13 @@ int main()
 
     printf("\n6. \"Show the output\" type question solution (2069-2080)\n");
 
-wrongInput:
+    wrongInput:
 
     printf("\n\nEnter the category number to go to that section: ");
 
     scanf("%d",&choice);
 
-//debug the input if user enter string then it go for Infiniti loop
+    //debug the input if user enter string then it go for Infiniti loop
 
     switch(choice)
 
@@ -54,7 +59,7 @@ wrongInput:
 
     case 1:
 
-        clrscr();
+         system("cls");
 
         quesPast();
 
@@ -62,7 +67,7 @@ wrongInput:
 
     case 2:
 
-        clrscr();
+         system("cls");
 
         printf("2");
 
@@ -72,7 +77,7 @@ wrongInput:
 
     /*case 3:
 
-        clrscr();
+         ("cls");
 
         paliFiboArm();
 
@@ -80,7 +85,7 @@ wrongInput:
 
     /*  case 4:
 
-          clrscr();
+          ("cls");
 
           printf("4");
 
@@ -90,7 +95,7 @@ wrongInput:
 
     /*   case 5:
 
-           clrscr();
+            ("cls");
 
            printf("5");
 
@@ -100,7 +105,7 @@ wrongInput:
 
     /*   case 6:
 
-           clrscr();
+            ("cls");
 
            printf("6");
 
@@ -133,10 +138,11 @@ void quesPast()
     int year,var,j;
 
     char decision;
+    system("cls");
 
 selectyear:
 
-    clrscr();
+
 
     printf("Select the year:\n\n2080\t2079\t2078\n2077\t2076\t2075\n2074\t2073\t2072\n2071\t2070\t2069\n\n");
 
@@ -150,7 +156,7 @@ selectyear:
 
     case 2080:
 
-    clrscr();
+     system("cls");
 
     printf("----2080 PAST YEAR QUESTIONS----\n");
 
@@ -175,6 +181,7 @@ selectyear:
         if(decision=='c')
 
         {
+            system("cls");
 
             goto selectyear;
 
@@ -184,7 +191,7 @@ selectyear:
 
         {
 
-            clrscr();
+            system("cls");
 
             for(j=3; j>=1; j--)
 
@@ -195,12 +202,12 @@ selectyear:
             fflush(stdout); // Flush the output buffer to display the message immediately
 
             sleep(1); // Sleep for 3 seconds
+             system("cls");
 
-            clrscr();
 
            }
 
-            clrscr();
+            system("cls");
 
            // system("kill -9 $$");
 
@@ -214,7 +221,7 @@ selectyear:
 
         {
 
-            clrscr();
+             system("cls");
 
             main();
 
@@ -245,6 +252,7 @@ selectyear:
         printf("-> Write a programe  to read a string from the user.\n   Pass the string to a function and sort the alphabets \n   in descending order.For examples,if the user\n   entererd \"exam\" then the programe should display \"xmea\". [2079 Bhadra]\n\n");
 
         printf("-> Write a programe  to find the frequency of a number in array.[2079 Bhadra\n\n]");
+         //user choice selection
 
         printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
 
@@ -253,6 +261,7 @@ selectyear:
         if(decision=='c')
 
         {
+            system("cls");
 
             goto selectyear;
 
@@ -262,7 +271,7 @@ selectyear:
 
         {
 
-            clrscr();
+             system("cls");
 
             printf("Exiting....");
 
@@ -274,7 +283,7 @@ selectyear:
 
         {
 
-            clrscr();
+             system("cls");
 
             main();
 
@@ -327,7 +336,9 @@ selectyear:
         printf("-> Write a programe  to read a structure named \"faculty\" having StaffID,Name,Address \n   and ServiceYear as member.Where ServiceYear is another structure\n   having DurationInYear as member .Now display the details\n   of those faculties whose service duration is more than 10 and less than 30 years..[2078 Kartik]\n\n");
 
         printf("-> Write a programe  to write the name, roll no, \n   and age of five students into a disk file name \"STUDENT.DAT\"..[2078 Kartik]\n\n");
-
+        
+         //user choice selection
+         
         printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
 
         scanf(" %c",&decision);
@@ -335,7 +346,7 @@ selectyear:
         if(decision=='c')
 
         {
-
+            system("cls");
             goto selectyear;
 
         }
@@ -344,7 +355,7 @@ selectyear:
 
         {
 
-            clrscr();
+            system("cls");
 
             printf("Exiting....");
 
@@ -356,7 +367,7 @@ selectyear:
 
         {
 
-            clrscr();
+             system("cls");
 
             main();
 
@@ -369,17 +380,25 @@ selectyear:
     case 2077:
 
         printf("No physical exam held by IOE");
+         //user choice selection
 
         printf("\n\nPress \"b\" to go to home screen and press \"e\" to exit the program: ");
 
         scanf(" %c",&decision);
+        
+        if(decision=='c')
+
+        {
+            system("cls");
+            goto selectyear;
+
+        }
 
         if(decision=='e')
 
         {
 
-            clrscr();
-
+             system("cls");
             printf("Exiting....");
 
             exit(0);
@@ -390,8 +409,7 @@ selectyear:
 
         {
 
-            clrscr();
-
+            system("cls");
             main();
 
         }
@@ -413,6 +431,7 @@ selectyear:
         printf("-> Write a programe  to read a string,write it into\n   a file and display the content of a file into a screen.[2076 Chaitra]\n\n");
 
         printf("-> Write a programe  that behaves strcpy()\n   function using pointer as arguement.[2076 Chaita]\n\n");
+         //user choice selection
 
         printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
 
@@ -421,6 +440,7 @@ selectyear:
         if(decision=='c')
 
         {
+            system("cls");
 
             goto selectyear;
 
@@ -430,8 +450,7 @@ selectyear:
 
         {
 
-            clrscr();
-
+            system("cls");
             printf("Exiting....");
 
             exit(0);
@@ -442,7 +461,7 @@ selectyear:
 
         {
 
-            clrscr();
+             system("cls");
 
             main();
 
@@ -507,6 +526,7 @@ selectyear:
         printf("\tprintf(\"a=%-7.2f and b=%07d from the second line\",a,b);\n");
 
         printf("\t printf(\"a=%.2f and b=%2d from the third line\",a,b);\n");
+         //user choice selection
 
         printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
 
@@ -515,7 +535,7 @@ selectyear:
         if(decision=='c')
 
         {
-
+            system("cls");
             goto selectyear;
 
         }
@@ -524,7 +544,7 @@ selectyear:
 
         {
 
-            clrscr();
+             system("cls");
 
             printf("Exiting....");
 
@@ -536,7 +556,7 @@ selectyear:
 
         {
 
-            clrscr();
+             system("cls");
 
             main();
 
@@ -609,7 +629,8 @@ selectyear:
         printf("-> write a program that uses the structure to read two complex numbers and\n   display a third complex number which is the multiplication of the entered complex numbers?    [2074 Ashwin]\n\n");
 
         printf("-> write a program in a C to read integer from the user \n   until the user says \"no\" after reading the data write all the \n   odd numbers to a file name odd.txt and all even number to file named even.txt?    [2074 Ashwin]\n\n");
-
+            
+             //user choice selection
         printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
 
         scanf(" %c",&decision);
@@ -617,7 +638,7 @@ selectyear:
         if(decision=='c')
 
         {
-
+            system("cls");
             goto selectyear;
 
         }
@@ -626,7 +647,7 @@ selectyear:
 
         {
 
-            clrscr();
+             system("cls");
 
             printf("Exiting....");
 
@@ -638,7 +659,7 @@ selectyear:
 
         {
 
-            clrscr();
+             system("cls");
 
             main();
 
@@ -682,6 +703,7 @@ selectyear:
 
         printf("-> write a program to read name and roll number of 48 students from user\n   and store them in a file. If the file already contain data, your programs\n   should add new data at the end of the file?     [2073 Shrawan]\n\n");
 
+         //user choice selection
         printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
 
         scanf(" %c",&decision);
@@ -689,7 +711,7 @@ selectyear:
         if(decision=='c')
 
         {
-
+            system("cls");
             goto selectyear;
 
         }
@@ -698,7 +720,7 @@ selectyear:
 
         {
 
-            clrscr();
+             system("cls");
 
             printf("Exiting....");
 
@@ -710,7 +732,7 @@ selectyear:
 
         {
 
-            clrscr();
+             system("cls");
 
             main();
 
@@ -741,7 +763,8 @@ selectyear:
         printf("10. Write a program to read structure 'college' having name, estDate and location where\n   estDate is another structure having day, month and year as a members.\n   Display the records of 10 colleges.[2072 Chaitra ]\n\n");
 
         printf("11. Write a program to read the information of a file named 'data.txt' and write its content to\n   another file 'record.txt'. [2072 Chaitra ]\n\n");
-
+     
+         //user choice selection
         printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
 
         scanf(" %c",&decision);
@@ -749,7 +772,7 @@ selectyear:
         if(decision=='c')
 
         {
-
+            system("cls");
             goto selectyear;
 
         }
@@ -758,7 +781,7 @@ selectyear:
 
         {
 
-            clrscr();
+             system("cls");
 
             printf("Exiting....");
 
@@ -770,7 +793,7 @@ selectyear:
 
         {
 
-            clrscr();
+            system("cls");
 
             main();
 
@@ -806,6 +829,7 @@ selectyear:
 
         printf("13. Write a program to continuously read name, age and salary of a worker and \n  write it into a file utill user confirms to end. Then read n from user and display the nth\n   record in the file. Details of worker must be represented by a structure.[2071 Chaitra]");
 
+         //user choice selection
         printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
 
         scanf(" %c",&decision);
@@ -813,7 +837,7 @@ selectyear:
         if(decision=='c')
 
         {
-
+            system("cls");
             goto selectyear;
 
         }
@@ -822,7 +846,7 @@ selectyear:
 
         {
 
-            clrscr();
+            system("cls");
 
             printf("Exiting....");
 
@@ -834,8 +858,7 @@ selectyear:
 
         {
 
-            clrscr();
-
+            system("cls");
             main();
 
         }
@@ -908,6 +931,7 @@ selectyear:
 
         printf("11. Write the program to display the records in sorted order sorting in performed  in\n  ascending order with respect to the name using data files concept.[2070 Chaitra]\n\n");
 
+         //user choice selection
         printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
 
         scanf(" %c",&decision);
@@ -915,7 +939,7 @@ selectyear:
         if(decision=='c')
 
         {
-
+            system("cls");
             goto selectyear;
 
         }
@@ -924,7 +948,7 @@ selectyear:
 
         {
 
-            clrscr();
+             system("cls");
 
             printf("Exiting....");
 
@@ -936,7 +960,7 @@ selectyear:
 
         {
 
-            clrscr();
+            system("cls");
 
             main();
 
@@ -1044,6 +1068,7 @@ selectyear:
 
         printf("12. Write a program, taking care of all the possible error condition that may occur,\n    to open a new file name DATA that reads  integers from user until user say “no”.\n    After reading the data write all the odd numbers to a file called\n    ODD  and all the even number to file called EVEN. [2069 Chaitra]\n\n");
 
+         //user choice selection
         printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
 
         scanf(" %c",&decision);
@@ -1051,7 +1076,7 @@ selectyear:
         if(decision=='c')
 
         {
-
+            system("cls");
             goto selectyear;
 
         }
@@ -1060,7 +1085,7 @@ selectyear:
 
         {
 
-            clrscr();
+             system("cls");
 
             printf("Exiting....");
 
@@ -1072,7 +1097,7 @@ selectyear:
 
         {
 
-            clrscr();
+            system("cls");
 
             main();
 
@@ -1092,4 +1117,3 @@ selectyear:
 
 }
 
-    
