@@ -12,11 +12,9 @@
 #include<unistd.h> //used to use sleep() and fflush(stdout)
 
 void quesPast();
-
-//void pali_Fibo_Arm();
-
+void paliFiboArm();
 void repeatQuestPastYear();
- void showOutputQuest();
+void showOutputQuest();
 
 int main()
 
@@ -74,17 +72,17 @@ int main()
 
         break;
 
-    /*case 3:
+    case 3:
 
-         ("cls");
+         system("cls");
 
-        paliFiboArm();
+      paliFiboArm();
 
-        break; */
+        break;
 
     /*  case 4:
 
-          ("cls");
+          system("cls");
 
           printf("4");
 
@@ -94,7 +92,7 @@ int main()
 
     /*   case 5:
 
-            ("cls");
+            system("cls");
 
            printf("5");
 
@@ -102,15 +100,15 @@ int main()
 
            break; */
 
-       case 6:
+    case 6:
 
-            ("cls");
+            system("cls");
 
            printf("6");
 
            showOutputQuest();
 
-           break; 
+           break;
 
     default:
 
@@ -743,7 +741,7 @@ selectyear:
 
         printf("1. Write a program to calculate the sum of the series 1+11+11l+....+\n   up to N terms using recursive function.If N is read as 5,the series\n   is:1+11+111+1111+11111. [ 2072 Kartik ]\n\n");
 
-        printf("2. Write a program to find the sum of series Sn= S(l/n^2) upto N term.[ 2072 Kartik]\n\n");
+        printf("2. Write a program to find the sum of series Sn= Σ(l/n^2) upto N term.[ 2072 Kartik]\n\n");
 
         printf("3. Write a program to read a word from a main function, pass it into a function\n   that will convert all of its characters into upper case if the first character\n   is in lower case and into lower case if the first character is in upper case\n   Display the converted string from main function.[ 2072 Kartik ]\n\n");
 
@@ -1254,42 +1252,207 @@ selectyear:
             main();
 
         }
-
-
-
      }
 
 
+        void paliFiboArm()
+
+        {
+            char opt,armopt,decision;
+    int num,n1,n2,numarm,z=0,series,count=0,temp,temp1,rem;
+    start:
+
+    printf("1. write a program to print the fibonacci series until the term is less than 500? [2075 Chaitra]\n\n");
+
+    printf("2. write an algorithm, draw flowchart and program to input a number check if it is armstrong or not?[2075 Ashwin]\n\n");
+
+    printf("3. write a program in C to find out whether the nth term of the Fibonacci series is a prime number or not.\n   Read the value of n from the user and display the result in the main function.\n   Use separate user-defined functions to generate the nth  Fibonacci term and to check \n   whether a number its prime or not?  [2074 Ashwin]\n\n");
+
+    printf("4. write a program in C to check whether a given string is palindrome or not using user\n   defined function?  [2074 Ashwin]\n\n");
+
+    printf("5. write a program to check whether a given number is Armstrong number or not using\n   recursive function? [2073 Shrawan]\n\n");
+
+ printf("6. Write a program to display Armstrong number between the range entered by a user\n   and also display their counts. You must use of function to check for Armstrong\n   number and display them from main.[2071 Chaitra]\n\n");
+
+printf("7. write a programe to check whether an entered word is a palindrome or not without\n   using library function.[2078 Kartik]\n\n");
+
+printf("8. Write a programe to generate Fibonacci series up to n terms. You need to make a\n   recursive function  to generate  the each term of Fibonacci series.[2079 Baishakh]\n\n");
+
+     palfibarmhome:
+
+    printf("\n\nFor source code enter \"s\" for program execution enter \"p\": ");
+    scanf(" %c",&opt);
+     system("cls");
+    switch(opt)
+    {
+    case 's':
+        selectquest:
+        printf("Questions source code is here!!");
+        printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
+        scanf(" %c",&decision);
+        if(decision=='c')
+        {
+            system("cls");
+            goto selectquest;
+        }
+        if(decision=='e')
+        {
+             system("cls");
+            printf("Exiting....");
+            exit(0);
+        }
+        if(decision=='b')
+        {
+             system("cls");
+            main();
+            break;
+        }
+
+    case 'p':
+        printf("Questions from 1 to upto..... \n");
+        printf("\n\nEnter question number of that code: ");
+        scanf("%d",&num);
+        if(num==1)
+        {
+         system("cls");
+            printf("Generate fibonacci series<500\n\n");
+            printf("Enter first number: ");
+            scanf("%d",&n1);
+            printf("Enter second number: ");
+            scanf("%d",&n2);
+            series=n1+n2;
+            while(series<500)
+            {
+                if(series<500)
+                {
+                    printf("%d, ",series);
+                    n1=n2;
+                    n2=series;
+                    series=n1+n2;
+                }
+                else
+                {
+                    printf("Series is greater that 500");
+                    break;
+                }
+            }
+            printf("\n\nEnter \"m\" for this section main menu or \"h\" for homescreen\n enter any character to exit the program: ");
+            scanf(" %c",&armopt);
+            if(armopt=='m')
+            {
+             system("cls");
+                goto start;
+            }
+            else if(armopt=='h')
+            {
+             system("cls");
+                main();
+            }
+            else
+            {
+             system("cls");
+            printf("Exiting...");
+                exit(0);
+            }
+            break;
+
+
+        }
+        else if(num==2)
+          {
+              printf("To check the given number is Armstrong number or not\n\n");
+              printf("Enter number: ");
+              scanf("%d",&numarm);
+              temp=numarm;
+              while(temp!=0)
+              {
+                  temp=temp/10;
+                  count++;
+              }
+              temp1=numarm;
+              while(temp1!=0)
+              {
+                  rem=temp1%10;
+                  z=z+pow(rem,count);
+                  temp1=temp1/10;
+              }
+              if(z==numarm)
+              {
+                  printf("%d not equal to %d is Armstrong number!",z,numarm);
+              }
+              else
+              {
+                  printf("%d not equal to %d so it isn't Armstrong number!",z,numarm);
+              }
+              printf("\n\n\Enter \"m\" for this section main menu or \"h\" for homescreen\n enter any character to exit the program: ");
+              scanf(" %c",&armopt); //we need to use address & to store character so it can be used in if.
+              if(armopt=='m')
+              {
+             system("cls");
+                  goto start;
+              }
+              else if(armopt=='h')
+              {
+             system("cls");
+                  main();
+              }
+              else
+              {
+            system("cls");
+            printf("Exiting....");
+                  exit(0);
+              }
+              break;
+          }
+        else if(num==3)
+        {
+ system("cls");
+            printf("remaining is coming soon!");
+        }
+        else
+        {
+            printf("Invalid Input! enter number between 1-10!");
+        }
+        break;
+    default:
+
+
+        printf("\n\nInvalid Input");
+        goto palfibarmhome;
+        break;
+    }
+        }
+
 
     void showOutputQuest( )
-     
+
      {
          int j;
          char decision;
 
         printf("1. Rewrite the following program by correcting any syntactical errors,\n if present.Also show the output of the corrected code.  [2070 Ashad]\n");
              printf(" #include<stdio.h>\n");
-              
+
               printf("int main()\n");
-              
+
               printf("{  float root, int i=1;\n");
-                  
+
                   printf("do{ sum=2i-1;\n");
-                  
+
                          printf("print(\"\t%d\n\",sum);\n");
-                      
-                         printf(" i*=5/3;}\n"); 
+
+                         printf(" i*=5/3;}\n");
                    printf("while (sum<=15)\n");
-                  
+
                   printf(" root=pow(i,1/2);\n");
-                  
+
                    printf("print(\"n%.3f\",root\");\n");
-                  
-                 printf("return void; }\n");
-              
-              
-              
-		
+
+                 printf("return void; }\n\n");
+
+
+
+
 		printf("2. what will the output of the following program explain?   [2075 Ashwin]\n\n");
 
 	printf("\t#include<studio.h>\n");
@@ -1301,13 +1464,13 @@ selectyear:
     printf("\t printf(\"C programming is easy\");\n");
 
 	printf("\telse");
-	
+
 	printf(" \tprintf(\"C programming is not easy\");\n");
-	
-	printf("\treturn 0;}\n");
-	
-	
-	
+
+	printf("\treturn 0;}\n\n");
+
+
+
 	printf("3. write down the output of the print() function\n   for the following sections of the statements?   [2074 Chaitra]\n\n");
 
           printf("\tfloat a = 5.7891;\n");
@@ -1318,7 +1481,7 @@ selectyear:
 
           printf("\tprintf(\"a=%-7.2f and b=%07d from the second line\",a,b);\n");
 
-        printf("\t printf(\"a=%.2f and b=%2d from the third line\",a,b);\n");
+        printf("\t printf(\"a=%.2f and b=%2d from the third line\",a,b);\n\n");
 
 
 
@@ -1328,7 +1491,7 @@ printf("4. rewrite the following program by correcting any errors, if \n   prese
 		printf("\tDefine MAX'S'\n");
 
 		printf("\tint main(){");
-   				
+
 		printf("\tint case[MAX]={2,3,5,4,10},i,sum=0;\n");
 
     	printf("\tfor(i=0,i<MAX,i+=1) {\n");
@@ -1342,9 +1505,9 @@ printf("4. rewrite the following program by correcting any errors, if \n   prese
     	printf("\tprintf(\"%06.2f\",average);\n");
 
     	printf("\treturn 1;}\n");
-    	
-    	
-    	
+
+
+
     	 printf("5. Rewrite the following source code correcting  any error present in it. Also indicate the \n   corrected in comment. Then write the output of the program.[2069 Ashad]\n");
     printf("  //program to convert list of temperatures\n");
     printf("  //in Centigrade to Fahrenheit\n");
@@ -1368,8 +1531,8 @@ printf("4. rewrite the following program by correcting any errors, if \n   prese
     printf("        };\n");
     printf("         cel2far(float f, float c)\n");
     printf("         {     f =9/5*c+32; };\n\n");
-    
-    
+
+
       printf("6. Give the output of the following program and justify your answer with reason.[2069 Chaitra]\n");
     printf("#include<stdio.h>\n");
     printf("int main()\n");
@@ -1382,8 +1545,8 @@ printf("4. rewrite the following program by correcting any errors, if \n   prese
      printf("  printf(\"b=%d\",b);\n");
      printf("  retun 0;\n");
     printf("}\n\n");
-    
-    
+
+
 
 
     //user choice selection
@@ -1431,12 +1594,22 @@ printf("4. rewrite the following program by correcting any errors, if \n   prese
              system("cls");
 
             main();
-
         }
-
-
-
      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
