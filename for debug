@@ -1063,9 +1063,25 @@ selectyear:
      void repeatQuestPastYear()
      {
          int j;
-         char decision;
+         char decision,repeatquestPastYear[8000];
+         
+         system("cls");
+     FILE *fpt_repque;
+    fpt_repque=fopen("repeatquestPastYear.txt","r");//This code is for 2080 question set only
+    if (fpt_repque!=NULL)
+    {
+       while(!feof(fpt_repque))
+    {
+        fgets(repeatquestPastYear,8000,fpt_repque);
+        puts(repeatquestPastYear);
+    }
+    }
+    else
+    {
+        printf("error");
+    }
 
-
+    fclose(fpt_repque);
 
     //user choice selection
 
@@ -1115,6 +1131,7 @@ selectyear:
 
         }
      }
+     
 
 
         void paliFiboArm()
