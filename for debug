@@ -1,62 +1,35 @@
 #include<stdio.h>
-
 #include<stdlib.h>
-
 #include<conio.h>
-
 #include<math.h>
-
 #include<unistd.h> //used to use sleep() and fflush(stdout)
-
 void quesPast();
 void repeatQuestPastYear();
 void showOutputQuest();
-
+void palifiboarmfun();
 void paliFiboArm();
-
 void pastque2080();
 void pastque2079();
-
-
-
 int main()
-
 {
 system("color 70");
     int choice;
-
     system("cls");
-
     printf("---------------------------------------\n");
-
      printf("Word By Devs:\tWelcome to Er.C solution App.\n\t\tThis app is made to help\n\t\tstudent who want to learn c\n\t\tprogramming easily.\n\t\twe provide you the full\n\t\tsolution so it helps you in\n\t\tour exam.\n\n");
-
     printf("Developer:\tArpan,Sugam,Sujan\n");
-
     printf("---------------------------------------\n\n");
-
     printf("\n\n1. All past year question (2069-2080)\n");
-
     printf("\n2. Repeated past year question (2069-2080)\n");
-
     printf("\n3. Palindrome, Fibonacci, Armstrong questions (2069-2080)\n");
-
     printf("\n4. \"SOURCE CODE\" of past year question (2069-2080)\n");
-
     printf("\n5. \"Running consol\" of past year question (2069-2080)\n");
-
     printf("\n6. \"Show the output\" type question solution (2069-2080)\n");
-
     wrongInput:
-
     printf("\n\nEnter the category number to go to that section: ");
-
     scanf("%d",&choice);
-
     //debug the input if user enter string then it go for Infiniti loop
-
     switch(choice)
-
     {
 
     case 1:
@@ -79,7 +52,7 @@ system("color 70");
 
          system("cls");
 
-      //paliFiboArm();
+      paliFiboArm();
 
         break;
 
@@ -1064,7 +1037,7 @@ selectyear:
      {
          int j;
          char decision,repeatquestPastYear[8000];
-         
+
          system("cls");
      FILE *fptrepque;
     fptrepque=fopen("repeatquestPastYear.txt","r");//This code is for repeatquestPastYear question set only
@@ -1131,7 +1104,7 @@ selectyear:
 
         }
      }
-     
+
 
 
         void paliFiboArm()
@@ -1144,11 +1117,35 @@ selectyear:
 
      palfibarmhome:
 
-    printf("\n\nFor source code enter \"s\" for program execution enter \"p\": ");
+    printf("\n\nFor question enter \"q\" \nFor source code enter \"s\" \nFor program execution enter \"p\" \n");
+    printf("Enter your command: ");
     scanf(" %c",&opt);
      system("cls");
     switch(opt)
     {
+        case 'q':
+       palifiboarmfun();
+       printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
+        scanf(" %c",&decision);
+        if(decision=='c')
+        {
+            system("cls");
+            goto selectquest;
+        }
+        if(decision=='e')
+        {
+             system("cls");
+            printf("Exiting....");
+            exit(0);
+        }
+        if(decision=='b')
+        {
+             system("cls");
+            main();
+            break;
+        }
+        break;
+
     case 's':
         selectquest:
         printf("Questions source code is here!!");
@@ -1292,7 +1289,24 @@ selectyear:
 
      {
          int j;
-         char decision;
+         char decision,showoutputQuest[8000];
+
+         FILE *fptshoutque;
+    fptshoutque=fopen("showoutputQuest.txt","r");
+    if (fptshoutque!=NULL)
+    {
+       while(!feof(fptshoutque))
+    {
+        fgets(showoutputQuest,8000,fptshoutque);
+        puts(showoutputQuest);
+    }
+    }
+    else
+    {
+        printf("error");
+    }
+
+    fclose(fptshoutque);
 
 
     //user choice selection
@@ -1342,3 +1356,28 @@ selectyear:
             main();
         }
      }
+
+      void palifiboarmfun()
+     {
+         char questionpfa[8000];
+FILE *fptpfa;
+    fptpfa=fopen("pali-fibo-arm.txt","r");
+    if (fptpfa!=NULL)
+    {
+       while(!feof(fptpfa))
+    {
+        fgets(questionpfa,8000,fptpfa);
+        puts(questionpfa);
+    }
+    }
+    else
+    {
+        printf("error");
+    }
+
+    fclose(fptpfa);
+
+    }
+
+
+
