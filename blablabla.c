@@ -8,8 +8,11 @@
 
 #include<math.h>
 
+#include<windows.h>
+
 #include<unistd.h> //used to use sleep() and fflush(stdout)
 
+void afterLogin();
 void quesPast();
 void repeatQuestPastYear();
 void showOutputQuest();
@@ -19,12 +22,49 @@ void addYourQuest();
 void pastque2080();
 void pastque2079();
 
-
+char username[10];
+char password[20];
 
 int main()
-
 {
-system("color 70");
+    printf("\n\n Enter your details\n\n");
+    printf(" Enter your username: ");
+    scanf("%s", username);
+    int i = 0;
+    char ch;
+    printf("\n Enter your password: ");
+    while ((ch = _getch()) != '\r')
+    {
+        if (ch == '\b')
+        {
+            if (i > 0)
+            {
+                printf("\b \b");
+                i--;
+            }
+        }
+        else
+        {
+            password[i++] = ch;
+            printf("*");
+        }
+    }
+    password[i] = '\0';
+    if(strcmp(password,"admin") == 0 && strcmp(username,"admin") == 0)
+    {
+        afterLogin();
+    }
+    else
+    {
+        system("cls");
+        printf("WRONG LOGIN");
+        main();
+    }
+}
+
+void afterLogin()
+{
+    system("color 70");
     int choice;
 
     system("cls");
@@ -122,9 +162,6 @@ system("color 70");
         break;
 
     }
-
-    return 0;
-
 }
 
 //Function of past year question all year.
@@ -211,8 +248,6 @@ selectyear:
            }
 
             system("cls");
-
-           // system("kill -9 $$");
 
            printf("Exit Successful.\nPress any key to close the terminal!\n\n");
 
