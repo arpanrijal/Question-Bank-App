@@ -24,15 +24,22 @@ void pastque2079();
 
 char username[10];
 char password[20];
+int azq=0;
 
 int main()
 {
-    printf("\n\n Enter your details\n\n");
-    printf(" Enter your username: ");
+    system("color 70");
+    printf("\t\t\t\t\tER. C PROGRAMMING LOGIN PAGE\n\n\n");
+    printf("Introduction: Welcome to Er. C programming Login Page.\nYour system default Username and Password is \"admin\"\n\n");
+     if(azq>=1)
+    {
+        printf("\t\tWRONG LOGIN\n\n");
+    }
+    printf("Enter your username: ");
     scanf("%s", username);
     int i = 0;
     char ch;
-    printf("\n Enter your password: ");
+    printf("\nEnter your password: ");
     while ((ch = _getch()) != '\r')
     {
         if (ch == '\b')
@@ -57,7 +64,7 @@ int main()
     else
     {
         system("cls");
-        printf("WRONG LOGIN");
+        azq++;
         main();
     }
 }
