@@ -14,17 +14,6 @@
 
 #include<string.h>
 
-void checkPalindrome(char str[]);
-struct questiononly
-{
-    char question[500];
-};
-struct answeronly
-{
-    char answer[8000];
-
-};
-
 void afterLogin();
 void quesPast();
 void repeatQuestPastYear();
