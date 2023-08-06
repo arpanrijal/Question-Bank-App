@@ -1048,6 +1048,7 @@ void addYourQuest()
     free(input_string);
     fclose(fpans);
     fclose(fpquad);
+    repSourceDecision();
 }
 
 
@@ -1078,4 +1079,5 @@ void YourSavedAnswer()
         }
         printf("\n");
     }
+    repSourceDecision();
 }
