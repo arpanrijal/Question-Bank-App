@@ -13,11 +13,15 @@
 #include<unistd.h> //used to use sleep() and fflush(stdout)
 
 #include<string.h>
-struct questiononly{
-                char question[500];
-                };
-struct answeronly{
-                char answer[8000];
+
+void checkPalindrome(char str[]);
+struct questiononly
+{
+    char question[500];
+};
+struct answeronly
+{
+    char answer[8000];
 
 };
 
@@ -43,10 +47,10 @@ int azq=0;
 
 int main()
 {
-     system("color 70");
+    system("color 70");
     printf("\t\t\t\t\tER. C PROGRAMMING LOGIN PAGE\n\n\n");
     printf("Introduction: Welcome to Er. C programming Login Page.\nYour system default Username and Password is \"admin\"\n\n");
-     if(azq>=1)
+    if(azq>=1)
     {
         printf("\t\tWRONG LOGIN\n\n");
     }
@@ -94,7 +98,8 @@ void afterLogin()
 
     printf("---------------------------------------\n");
 
-    space(10);printf("Word By Devs:\tWelcome to Er.C solution App.\n\t\tThis app is made to help\n\t\tstudent who want to learn c\n\t\tprogramming easily.\n\t\twe provide you the full\n\t\tsolution so it helps you in\n\t\tour exam.\n\n");
+    space(10);
+    printf("Word By Devs:\tWelcome to Er.C solution App.\n\t\tThis app is made to help\n\t\tstudent who want to learn c\n\t\tprogramming easily.\n\t\twe provide you the full\n\t\tsolution so it helps you in\n\t\tour exam.\n\n");
 
     printf("Developer:\tArpan,Sugam,Sujan\n");
 
@@ -112,7 +117,7 @@ void afterLogin()
 
     printf("\n6. Your saved questions solution\n");
 
-    wrongInput:
+wrongInput:
 
     printf("\n\nEnter the category number to go to that section: ");
 
@@ -126,7 +131,7 @@ void afterLogin()
 
     case 1:
 
-         system("cls");
+        system("cls");
 
         quesPast();
 
@@ -134,7 +139,7 @@ void afterLogin()
 
     case 2:
 
-         system("cls");
+        system("cls");
 
         repeatQuestPastYear();
 
@@ -142,35 +147,35 @@ void afterLogin()
 
     case 3:
 
-         system("cls");
+        system("cls");
 
-      paliFiboArm();
+        paliFiboArm();
 
         break;
 
-      case 4:
+    case 4:
 
-          system("cls");
+        system("cls");
 
-      sourceCodeShow();
+        sourceCodeShow();
 
-          break;
+        break;
 
-       case 5:
+    case 5:
 
-            system("cls");
-            addYourQuest();
-            break;
+        system("cls");
+        addYourQuest();
+        break;
 
     case 6:
 
-            system("cls");
+        system("cls");
 
-           YourSavedAnswer();
+        YourSavedAnswer();
 
 
 
-           break;
+        break;
 
     default:
 
@@ -213,79 +218,79 @@ selectyear:
     case 2080:
 
 
-     system("cls");
-     char question[8000];
-     //pastque2080();
-     FILE *fpt;
-    fpt=fopen("2080QUESTSET.txt","r");//This code is for 2080 question set only
-    if (fpt!=NULL)
-    {
-       while(!feof(fpt))
-    {
-        fgets(question,8000,fpt);
-        puts(question);
-    }
-    }
-    else
-    {
-        printf("error");
-    }
+        system("cls");
+        char question[8000];
+        //pastque2080();
+        FILE *fpt;
+        fpt=fopen("2080QUESTSET.txt","r");//This code is for 2080 question set only
+        if (fpt!=NULL)
+        {
+            while(!feof(fpt))
+            {
+                fgets(question,8000,fpt);
+                puts(question);
+            }
+        }
+        else
+        {
+            printf("error");
+        }
 
-    fclose(fpt);
+        fclose(fpt);
 
-    //user choice selection using seperat function
-    decisionSelection();
+        //user choice selection using seperat function
+        decisionSelection();
 
         break;
 
     case 2079:
 
-     system("cls");
-     char question2079[8000];
-     FILE *fpt2079;
-    fpt2079=fopen("2079QUESTSET.txt","r");//This code is for 2080 question set only
-    if (fpt2079!=NULL)
-    {
-       while(!feof(fpt2079))
-    {
-        fgets(question2079,8000,fpt2079);
-        puts(question2079);
-    }
-    }
-    else
-    {
-        printf("error");
-    }
+        system("cls");
+        char question2079[8000];
+        FILE *fpt2079;
+        fpt2079=fopen("2079QUESTSET.txt","r");//This code is for 2080 question set only
+        if (fpt2079!=NULL)
+        {
+            while(!feof(fpt2079))
+            {
+                fgets(question2079,8000,fpt2079);
+                puts(question2079);
+            }
+        }
+        else
+        {
+            printf("error");
+        }
 
-    fclose(fpt2079);
+        fclose(fpt2079);
 
- //user choice selection using seperat function
-    decisionSelection();
+//user choice selection using seperat function
+        decisionSelection();
         break;
 
     case 2078:
 
         system("cls");
-     char question2078[8000];
-     FILE *fpt2078;
-    fpt2078=fopen("2078QUESTSET.txt","r");//This code is for 2080 question set only
-    if (fpt2078!=NULL)
-    {
-       while(!feof(fpt2078))
-    {
-        fgets(question2078,8000,fpt2078);
-        puts(question2078);
-    }
-    }
-    else
-    {
-        printf("error");
-    }
+        char question2078[8000];
+        FILE *fpt2078;
+        fpt2078=fopen("2078QUESTSET.txt","r");//This code is for 2080 question set only
+        if (fpt2078!=NULL)
+        {
+            while(!feof(fpt2078))
+            {
+                fgets(question2078,8000,fpt2078);
+                puts(question2078);
+            }
+        }
+        else
+        {
+            printf("error");
+        }
 
-    fclose(fpt2078);
+        fclose(fpt2078);
 
-     //user choice selection using seperat function
-    decisionSelection();
+        //user choice selection using seperat function
+        decisionSelection();
         break;
 
     //No exam held at this time...
@@ -294,202 +299,202 @@ selectyear:
 
 
         printf("NO PHYSICAL EXAM HELD BY IOE BUT THIS EXAM IS SHIFTED 2078");
-         //user choice selection using seperat function
-    decisionSelection();
+        //user choice selection using seperat function
+        decisionSelection();
         break;
 
     case 2076:
 
         system("cls");
-     char question2076[8000];
-     //pastque2076();
-     FILE *fpt2076;
-    fpt2076=fopen("2076QUESTSET.txt","r");//This code is for 2080 question set only
-    if (fpt!=NULL)
-    {
-       while(!feof(fpt2076))
-    {
-        fgets(question,8000,fpt2076);
-        puts(question);
-    }
-    }
-    else
-    {
-        printf("error");
-    }
+        char question2076[8000];
+        //pastque2076();
+        FILE *fpt2076;
+        fpt2076=fopen("2076QUESTSET.txt","r");//This code is for 2080 question set only
+        if (fpt!=NULL)
+        {
+            while(!feof(fpt2076))
+            {
+                fgets(question,8000,fpt2076);
+                puts(question);
+            }
+        }
+        else
+        {
+            printf("error");
+        }
 
-    fclose(fpt2076);
+        fclose(fpt2076);
 
-       //user choice selection using seperat function
-    decisionSelection();
+        //user choice selection using seperat function
+        decisionSelection();
         break;
 
     case 2075:
         system("cls");
-     char question2075[8000];
-     FILE *fpt2075;
-    fpt2075=fopen("2075QUESTSET.txt","r");//This code is for 2080 question set only
-    if (fpt2075!=NULL)
-    {
-       while(!feof(fpt2075))
-    {
-        fgets(question2075,8000,fpt2075);
-        puts(question2075);
-    }
-    }
-    else
-    {
-        printf("error");
-    }
+        char question2075[8000];
+        FILE *fpt2075;
+        fpt2075=fopen("2075QUESTSET.txt","r");//This code is for 2080 question set only
+        if (fpt2075!=NULL)
+        {
+            while(!feof(fpt2075))
+            {
+                fgets(question2075,8000,fpt2075);
+                puts(question2075);
+            }
+        }
+        else
+        {
+            printf("error");
+        }
 
-    fclose(fpt2075);
+        fclose(fpt2075);
 
-  //user choice selection using seperat function
-    decisionSelection();
+        //user choice selection using seperat function
+        decisionSelection();
         break;
 
     case 2074:
 
-                system("cls");
-     char question2074[8000];
-     FILE *fpt2074;
-    fpt2074=fopen("2074QUESTSET.txt","r");//This code is for 2080 question set only
-    if (fpt2074!=NULL)
-    {
-       while(!feof(fpt2074))
-    {
-        fgets(question2074,8000,fpt2074);
-        puts(question2074);
-    }
-    }
-    else
-    {
-        printf("error");
-    }
+        system("cls");
+        char question2074[8000];
+        FILE *fpt2074;
+        fpt2074=fopen("2074QUESTSET.txt","r");//This code is for 2080 question set only
+        if (fpt2074!=NULL)
+        {
+            while(!feof(fpt2074))
+            {
+                fgets(question2074,8000,fpt2074);
+                puts(question2074);
+            }
+        }
+        else
+        {
+            printf("error");
+        }
 
-    fclose(fpt2074);
-       //user choice selection using seperat function
-    decisionSelection();
+        fclose(fpt2074);
+        //user choice selection using seperat function
+        decisionSelection();
         break;
 
     case 2073:
-            system("cls");
-     char question2073[8000];
-     FILE *fpt2073;
-    fpt2073=fopen("2073QUESTSET.txt","r");//This code is for 2080 question set only
-    if (fpt2073!=NULL)
-    {
-       while(!feof(fpt2073))
-    {
-        fgets(question2073,8000,fpt2073);
-        puts(question2073);
-    }
-    }
-    else
-    {
-        printf("error");
-    }
+        system("cls");
+        char question2073[8000];
+        FILE *fpt2073;
+        fpt2073=fopen("2073QUESTSET.txt","r");//This code is for 2080 question set only
+        if (fpt2073!=NULL)
+        {
+            while(!feof(fpt2073))
+            {
+                fgets(question2073,8000,fpt2073);
+                puts(question2073);
+            }
+        }
+        else
+        {
+            printf("error");
+        }
 
-    fclose(fpt2073);
-   //user choice selection using seperat function
-    decisionSelection();
+        fclose(fpt2073);
+        //user choice selection using seperat function
+        decisionSelection();
         break;
 
     case 2072:
 
-                system("cls");
-     char question2072[8000];
-     FILE *fpt2072;
-    fpt2072=fopen("2072QUESTSET.txt","r");//This code is for 2080 question set only
-    if (fpt2072!=NULL)
-    {
-       while(!feof(fpt2072))
-    {
-        fgets(question2072,8000,fpt2072);
-        puts(question2072);
-    }
-    }
-    else
-    {
-        printf("error");
-    }
+        system("cls");
+        char question2072[8000];
+        FILE *fpt2072;
+        fpt2072=fopen("2072QUESTSET.txt","r");//This code is for 2080 question set only
+        if (fpt2072!=NULL)
+        {
+            while(!feof(fpt2072))
+            {
+                fgets(question2072,8000,fpt2072);
+                puts(question2072);
+            }
+        }
+        else
+        {
+            printf("error");
+        }
 
-    fclose(fpt2072);
-    //user choice selection using seperat function
-    decisionSelection();
+        fclose(fpt2072);
+        //user choice selection using seperat function
+        decisionSelection();
         break;
 
     case 2071:
 
-            system("cls");
-     char question2071[8000];
-     FILE *fpt2071;
-    fpt2071=fopen("2071QUESTSET.txt","r");//This code is for 2080 question set only
-    if (fpt2071!=NULL)
-    {
-       while(!feof(fpt2071))
-    {
-        fgets(question2071,8000,fpt2071);
-        puts(question2071);
-    }
-    }
-    else
-    {
-        printf("error");
-    }
+        system("cls");
+        char question2071[8000];
+        FILE *fpt2071;
+        fpt2071=fopen("2071QUESTSET.txt","r");//This code is for 2080 question set only
+        if (fpt2071!=NULL)
+        {
+            while(!feof(fpt2071))
+            {
+                fgets(question2071,8000,fpt2071);
+                puts(question2071);
+            }
+        }
+        else
+        {
+            printf("error");
+        }
 
-    fclose(fpt2071);
-      //user choice selection using seperat function
-    decisionSelection();
+        fclose(fpt2071);
+        //user choice selection using seperat function
+        decisionSelection();
         break;
 
     case 2070:
 
 
-                system("cls");
-     char question2070[8000];
-     FILE *fpt2070;
-    fpt2070=fopen("2070QUESTSET.txt","r");//This code is for 2080 question set only
-    if (fpt2070!=NULL)
-    {
-       while(!feof(fpt2070))
-    {
-        fgets(question2070,8000,fpt2070);
-        puts(question2070);
-    }
-    }
-    else
-    {
-        printf("error");
-    }
+        system("cls");
+        char question2070[8000];
+        FILE *fpt2070;
+        fpt2070=fopen("2070QUESTSET.txt","r");//This code is for 2080 question set only
+        if (fpt2070!=NULL)
+        {
+            while(!feof(fpt2070))
+            {
+                fgets(question2070,8000,fpt2070);
+                puts(question2070);
+            }
+        }
+        else
+        {
+            printf("error");
+        }
 
-    fclose(fpt2070);
-       //user choice selection using seperat function
-    decisionSelection();
+        fclose(fpt2070);
+        //user choice selection using seperat function
+        decisionSelection();
         break;
 
     case 2069:
 
-                system("cls");
-     char question2069[8000];
-     FILE *fpt2069;
-    fpt2069=fopen("2069QUESTSET.txt","r");//This code is for 2080 question set only
-    if (fpt2069!=NULL)
-    {
-       while(!feof(fpt2069))
-    {
-        fgets(question2069,8000,fpt2069);
-        puts(question2069);
-    }
-    }
-    else
-    {
-        printf("error");
-    }
+        system("cls");
+        char question2069[8000];
+        FILE *fpt2069;
+        fpt2069=fopen("2069QUESTSET.txt","r");//This code is for 2080 question set only
+        if (fpt2069!=NULL)
+        {
+            while(!feof(fpt2069))
+            {
+                fgets(question2069,8000,fpt2069);
+                puts(question2069);
+            }
+        }
+        else
+        {
+            printf("error");
+        }
 
-    fclose(fpt2069);
-      //user choice selection using seperat function
-    decisionSelection();
+        fclose(fpt2069);
+        //user choice selection using seperat function
+        decisionSelection();
         break;
 
     default:
@@ -503,21 +508,21 @@ selectyear:
     }
 }
 
-     void repeatQuestPastYear()
-     {
-         int j;
-         char decision,repeatquestPastYear[8000],QuestCharacter[8000];
+void repeatQuestPastYear()
+{
+    int j;
+    char decision,repeatquestPastYear[8000],QuestCharacter[8000];
 
-         system("cls");
-     FILE *fptrepque;
+    system("cls");
+    FILE *fptrepque;
     fptrepque=fopen("repeatquestPastYears.txt","r");//This code is for repeatquestPastYear question set only
     if (fptrepque!=NULL)
     {
-       while(!feof(fptrepque))
-    {
-        fgets(repeatquestPastYear,8000,fptrepque);
-        puts(repeatquestPastYear);
-    }
+        while(!feof(fptrepque))
+        {
+            fgets(repeatquestPastYear,8000,fptrepque);
+            puts(repeatquestPastYear);
+        }
     }
     else
     {
@@ -526,36 +531,36 @@ selectyear:
 
     fclose(fptrepque);
 //function for source and rep only quest
-   repSourceDecision();
-     }
+    repSourceDecision();
+}
 
 
 
 
 
-        void paliFiboArm()
+void paliFiboArm()
 
-        {
-            char opt,armopt,decision;
-            char str[17];
-            int num,n1,n2,numarm,z=0,series,count=0,temp,temp1,rem;
-    start:
+{
+    char opt,armopt,decision;
+    char str[17];
+    int num,n1,n2,numarm,z=0,series,count=0,temp,temp1,rem;
+start:
 
 
-     palfibarmhome:
-    selectquest:
-        system("cls");
-        start1:
+palfibarmhome:
+selectquest:
+    system("cls");
+start1:
     printf(" Command Execution Page\n");
     printf("\n For question enter \"q\" For Palindrome, Fibonacci and Armstrong Question only(2080-2069)\n For program execution enter \"p\" \n");
     printf(" Enter your command: ");
     scanf(" %c",&opt);
-     system("cls");
+    system("cls");
     switch(opt)
     {
-        case 'q':
-       palifiboarmfun();
-       printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
+    case 'q':
+        palifiboarmfun();
+        printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
         scanf(" %c",&decision);
         if(decision=='c')
         {
@@ -564,14 +569,14 @@ selectyear:
         }
         if(decision=='e')
         {
-             system("cls");
+            system("cls");
             printf("Exiting....");
             exit(0);
         }
         if(decision=='b')
         {
-             system("cls");
-           afterLogin();
+            system("cls");
+            afterLogin();
             break;
         }
         break;
@@ -580,12 +585,12 @@ selectyear:
 
     case 'p':
 
-       switch_case_p();//function call for question print...
-    printf("\n\nEnter question number of that code: ");
+        switch_case_p();//function call for question print...
+        printf("\n\nEnter question number of that code: ");
         scanf("%d",&num);
         if(num==1)
         {
-         system("cls");
+            system("cls");
             printf("Generate fibonacci series<500\n\n");
             printf("Enter first number: ");
             scanf("%d",&n1);
@@ -611,18 +616,18 @@ selectyear:
             scanf(" %c",&armopt);
             if(armopt=='m')
             {
-             system("cls");
+                system("cls");
                 goto start;
             }
             else if(armopt=='h')
             {
-             system("cls");
+                system("cls");
                 afterLogin();
             }
             else
             {
-             system("cls");
-            printf("Exiting...");
+                system("cls");
+                printf("Exiting...");
                 exit(0);
             }
             break;
@@ -630,53 +635,53 @@ selectyear:
 
         }
         else if(num==2)
-          {
-              system("cls");
-              printf("To check the given number is Armstrong number or not\n\n");
-              printf("Enter number: ");
-              scanf("%d",&numarm);
-              temp=numarm;
-              while(temp!=0)
-              {
-                  temp=temp/10;
-                  count++;
-              }
-              temp1=numarm;
-              while(temp1!=0)
-              {
-                  rem=temp1%10;
-                  z=z+pow(rem,count);
-                  temp1=temp1/10;
-              }
-              if(z==numarm)
-              {
-                  printf("%d is Armstrong number!",numarm);
-              }
-              else
-              {
-                  printf("%d so it isn't Armstrong number!",numarm);
-              }
-
-               printf("\n\n\Enter \"m\" for this section main menu or \"h\" for homescreen\n enter any character to exit the program: ");
-              scanf(" %c",&armopt); //we need to use address & to store character so it can be used in if.
-              if(armopt=='m')
-              {
-             system("cls");
-                  goto start;
-              }
-              else if(armopt=='h')
-              {
-             system("cls");
-                  afterLogin();
-              }
-              else
-              {
+        {
             system("cls");
-            printf("Exiting....");
-                  exit(0);
-              }
-              break;
-          }
+            printf("To check the given number is Armstrong number or not\n\n");
+            printf("Enter number: ");
+            scanf("%d",&numarm);
+            temp=numarm;
+            while(temp!=0)
+            {
+                temp=temp/10;
+                count++;
+            }
+            temp1=numarm;
+            while(temp1!=0)
+            {
+                rem=temp1%10;
+                z=z+pow(rem,count);
+                temp1=temp1/10;
+            }
+            if(z==numarm)
+            {
+                printf("%d is Armstrong number!",numarm);
+            }
+            else
+            {
+                printf("%d so it isn't Armstrong number!",numarm);
+            }
+
+            printf("\n\n\Enter \"m\" for this section main menu or \"h\" for homescreen\n enter any character to exit the program: ");
+            scanf(" %c",&armopt); //we need to use address & to store character so it can be used in if.
+            if(armopt=='m')
+            {
+                system("cls");
+                goto start;
+            }
+            else if(armopt=='h')
+            {
+                system("cls");
+                afterLogin();
+            }
+            else
+            {
+                system("cls");
+                printf("Exiting....");
+                exit(0);
+            }
+            break;
+        }
         else if(num==3)
         {
 
@@ -686,24 +691,24 @@ selectyear:
             scanf("%s", str);
             checkPalindrome(str);
             printf("\n\n\Enter \"m\" for this section main menu or \"h\" for homescreen\n enter any character to exit the program: ");
-              scanf(" %c",&armopt); //we need to use address & to store character so it can be used in if.
-              if(armopt=='m')
-              {
-             system("cls");
-                  goto start1;
-              }
-              else if(armopt=='h')
-              {
-             system("cls");
-                  afterLogin();
-              }
-              else
-              {
-            system("cls");
-            printf("Exiting....");
-                  exit(0);
-              }
-              break;
+            scanf(" %c",&armopt); //we need to use address & to store character so it can be used in if.
+            if(armopt=='m')
+            {
+                system("cls");
+                goto start1;
+            }
+            else if(armopt=='h')
+            {
+                system("cls");
+                afterLogin();
+            }
+            else
+            {
+                system("cls");
+                printf("Exiting....");
+                exit(0);
+            }
+            break;
         }
         else if(num==4)
         {
@@ -748,21 +753,21 @@ void checkPalindrome(char str[])
     }
 }
 
-    void showOutputQuest( )
+void showOutputQuest( )
 
-     {
-         int j;
-         char decision,showoutputQuest[8000];
+{
+    int j;
+    char decision,showoutputQuest[8000];
 
-         FILE *fptshoutque;
+    FILE *fptshoutque;
     fptshoutque=fopen("showoutputQuest.txt","r");
     if (fptshoutque!=NULL)
     {
-       while(!feof(fptshoutque))
-    {
-        fgets(showoutputQuest,8000,fptshoutque);
-        puts(showoutputQuest);
-    }
+        while(!feof(fptshoutque))
+        {
+            fgets(showoutputQuest,8000,fptshoutque);
+            puts(showoutputQuest);
+        }
     }
     else
     {
@@ -772,22 +777,22 @@ void checkPalindrome(char str[])
     fclose(fptshoutque);
 
 
- //function for source and rep only quest
-   repSourceDecision();
-     }
+//function for source and rep only quest
+    repSourceDecision();
+}
 
-      void palifiboarmfun()
-     {
-         char questionpfa[8000];
-FILE *fptpfa;
+void palifiboarmfun()
+{
+    char questionpfa[8000];
+    FILE *fptpfa;
     fptpfa=fopen("pali-fibo-arm.txt","r");
     if (fptpfa!=NULL)
     {
-       while(!feof(fptpfa))
-    {
-        fgets(questionpfa,8000,fptpfa);
-        puts(questionpfa);
-    }
+        while(!feof(fptpfa))
+        {
+            fgets(questionpfa,8000,fptpfa);
+            puts(questionpfa);
+        }
     }
     else
     {
@@ -796,28 +801,32 @@ FILE *fptpfa;
 
     fclose(fptpfa);
 
-    }
+}
 
 
 void sourceCodeShow()
 {
-     char decision, sourcecodeV[8000];
+    char decision, sourcecodeV[8000];
     FILE *fptsourcec;
     fptsourcec = fopen("sourceCode.txt", "r"); // This code is for the source code of the question
 
-    if (fptsourcec != NULL) {
+    if (fptsourcec != NULL)
+    {
 
-        while (fgets(sourcecodeV, 8000, fptsourcec) != NULL) {
+        while (fgets(sourcecodeV, 8000, fptsourcec) != NULL)
+        {
             puts(sourcecodeV);
         }
-    } else {
+    }
+    else
+    {
         printf("Error opening the file.\n");
     }
 
     fclose(fptsourcec);
 
 //function for source and rep only quest
-   repSourceDecision();
+    repSourceDecision();
 }
 
 
@@ -841,18 +850,18 @@ void switch_case_p()
         printf("error");
     }*/
 
-         // int j;
-         char showoutputQuest1[8000];
+    // int j;
+    char showoutputQuest1[8000];
 
-         FILE *fptshoutque1;
+    FILE *fptshoutque1;
     fptshoutque1=fopen("palifiboQuest.txt","r");
     if (fptshoutque1!=NULL)
     {
-       while(!feof(fptshoutque1))
-    {
-        fgets(showoutputQuest1,8000,fptshoutque1);
-        puts(showoutputQuest1);
-    }
+        while(!feof(fptshoutque1))
+        {
+            fgets(showoutputQuest1,8000,fptshoutque1);
+            puts(showoutputQuest1);
+        }
     }
     else
     {
@@ -865,204 +874,208 @@ void switch_case_p()
 
 
 void space(int n)
-{for(int i=0;i<n;i++)
 {
+    for(int i=0; i<n; i++)
+    {
 
-    printf(" ");
-}
+        printf(" ");
+    }
 }
 
 void decisionSelection()
 {
     char decision;
-printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
+    printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
 
-        scanf(" %c",&decision);
+    scanf(" %c",&decision);
 
-        if(decision=='c')
+    if(decision=='c')
+
+    {
+        system("cls");
+
+        quesPast();
+
+    }
+
+    if(decision=='e')
+
+    {
+
+        system("cls");
+
+        for(int j=3; j>=1; j--)
 
         {
-            system("cls");
-
-            quesPast();
-
-        }
-
-        if(decision=='e')
-
-        {
-
-            system("cls");
-
-            for(int j=3; j>=1; j--)
-
-            {
 
             printf("Exiting.... in %dsec",j);
 
             fflush(stdout); // Flush the output buffer to display the message immediately
 
             sleep(1); // Sleep for 3 seconds
-             system("cls");
-
-
-           }
-
             system("cls");
 
-           printf("Exit Successful.\nPress any key to close the terminal!\n\n");
-
-            exit(0);
 
         }
 
-        if(decision=='b')
+        system("cls");
 
-        {
+        printf("Exit Successful.\nPress any key to close the terminal!\n\n");
 
-             system("cls");
+        exit(0);
 
-            afterLogin();
+    }
 
-        }
+    if(decision=='b')
+
+    {
+
+        system("cls");
+
+        afterLogin();
+
+    }
 }
 
 void repSourceDecision()
 {
     char decision;
-printf("\n\nPress \"b\" to go to home screen and press \"e\" to exit the program: ");
+    printf("\n\nPress \"b\" to go to home screen and press \"e\" to exit the program: ");
 
-        scanf(" %c",&decision);
+    scanf(" %c",&decision);
 
-        if(decision=='e')
+    if(decision=='e')
+
+    {
+
+        system("cls");
+
+        for(int j=3; j>=1; j--)
 
         {
-
-            system("cls");
-
-            for(int j=3; j>=1; j--)
-
-            {
 
             printf("Exiting.... in %dsec",j);
 
             fflush(stdout); // Flush the output buffer to display the message immediately
 
             sleep(1); // Sleep for 3 seconds
-             system("cls");
-
-
-           }
-
             system("cls");
 
-           printf("Exit Successful.\nPress any key to close the terminal!\n\n");
-
-            exit(0);
 
         }
 
-        if(decision=='b')
+        system("cls");
 
-        {
+        printf("Exit Successful.\nPress any key to close the terminal!\n\n");
 
-             system("cls");
+        exit(0);
 
-            afterLogin();
+    }
 
-        }
+    if(decision=='b')
+
+    {
+
+        system("cls");
+
+        afterLogin();
+
+    }
 }
-
 
 void addYourQuest()
 {
-
-FILE *fpquad=NULL;
-FILE *fpans=NULL;
-
+    char strque[8000],strans[8000];
+    int numnum1;
+    FILE *fpquad,*fpans;
     fpquad=fopen("questiononlyfile.txt","a");
     fpans=fopen("answeronlyfile.txt","a");
-    struct questiononly qQ[30];
-    struct answeronly qA[30];
-    int numm1m, numm2m;
-    printf("Enter your question each character with space length: ");
-    scanf("%d",&numm1m);
-    printf("Enter your source code each character with space length: ");
-    scanf("%d",&numm2m);
-printf("Enter the question:");
-for(int i=0;i<numm1m;i++)
-{
-    gets(qQ[i].question);
-    fwrite(&qQ[i],sizeof(struct questiononly),1,fpquad);
-}
-printf("Enter your answer:");
-for(int i=0;i<numm2m;i++)
-{
-    gets(qA[i].answer);
-    fwrite(&qA[i],sizeof(struct answeronly),1,fpans);
-}
+    fflush(stdin);
+    printf("Enter your question: ");
+    scanf("%[^\n]s",strque);
+    fprintf(fpquad,"%s\n",strque);
+    fflush(stdin);
+    int ch;
+    int buffer_size = 100; // Adjust this size according to your needs
+    char *input_string = (char *)malloc(buffer_size * sizeof(char));
+    int index = 0;
+    printf("Enter your solution (press Ctrl + Z to save):\n");
+    while ((ch = _getch()) != EOF)
+    {
+        if (ch == 26)
+        {
+            // Check if it is Ctrl + Z (Windows) to end input
+            break;
+        }
 
-for(int i=0;i<2;i++)
-{
+        if (ch == '\b')
+        {
+            // Handle backspace: Move index back by one character and erase character on the screen
+            if (index > 0)
+            {
+                index--;
+                printf("\b \b");
+            }
+        }
+        else if (ch == '\r')
+        {
+            // Handle Enter key (carriage return): Add newline character and print it
+            input_string[index] = '\n';
+            index++;
+            putchar('\n');
+        }
+        else
+        {
+            input_string[index] = ch;
+            index++;
+            putchar(ch); // Print the character on the screen
 
-    printf("%s\n",qQ[i].question);
-    printf("%s\n",qA[i].answer);
-}
-fclose(fpquad);
-fclose(fpans);
- //user choice selection using seperat function
-    repSourceDecision();
+            // Dynamically increase buffer size if necessary
+            if (index == buffer_size)
+            {
+                buffer_size *= 2;
+                input_string = (char *)realloc(input_string, buffer_size * sizeof(char));
+            }
+        }
+    }
+
+    // Null-terminate the input string
+    input_string[index] = '\0';
+
+    fprintf(fpans,"%s\n--\n",input_string);//for writing fprintf easy to read in file
+
+    // Free dynamically allocated memory
+    free(input_string);
+    fclose(fpans);
+    fclose(fpquad);
 }
 
 
 void YourSavedAnswer()
 {
-    FILE*fpabc;
-    FILE*fpdef;
-    fpabc=("questiononlyfile.txt","r");
-    fpdef=("answeronlyfile.txt","r");
-    struct questiononly qQ[30];
-    struct answeronly qA[30];
-    int n=0;
-    if(fpabc=NULL)
+    char question[1000], answer[10000],ch[1000];
+    int c = 0;
+    FILE *fpabcdd;
+    FILE *fpdeffa;
+    fpabcdd=fopen("questiononlyfile.txt","r");
+    fpdeffa=fopen("answeronlyfile.txt","r");
+    if(fpabcdd == NULL || fpdeffa == NULL)
     {
-        printf("Error!");
+        printf("ERROR!");
+        exit(1); //return;
     }
-    else
-
+    while(fgets(question,sizeof(question),fpabcdd) != NULL)
     {
-   while (fread(&qQ[n], sizeof(struct questiononly), 1, fpabc) == 1)
+        printf(" %s",question);
+        printf("-->");
+        while(fgets(ch,sizeof(ch),fpdeffa) != NULL)
         {
-            fread(&qA[n], sizeof(struct answeronly), 1, fpdef);
-            n++;
+            if(strcmp(ch,"--\n") == 0)
+            {
+                break;
+            }
+            printf(" %s",ch);
         }
-        for(int i=0;i<2;i++)
-        {
-    printf("%s",qQ[i].question);
-
-    printf("%s",qA[i].answer);
-        }
-    fclose(fpabc);
-    fclose(fpdef);
-
+        printf("\n");
     }
-     //user choice selection using seperat function
-    repSourceDecision();
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
