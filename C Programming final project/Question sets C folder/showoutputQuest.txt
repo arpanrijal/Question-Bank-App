@@ -1,0 +1,140 @@
+->what will the output of the following program explain?   [2075 Ashwin]
+        #include<studio.h>
+	int main(){
+	if(!NULL)
+	    printf("C programming is easy");
+	else
+            printf("C programming is not easy");
+	return 0;
+                  }
+ ->write down the output of the print() function for the following sections of the statements?   [2074 Chaitra]
+          float a = 5.7891;
+          int b = 6789;
+          printf("a=%4f and b=%-7d from the first line",a,b);
+          printf("a=%-7.2f and b=%07d from the second line",a,b);
+          printf("a=%.2f and b=%2d from the third line",a,b);
+ ->rewrite the following program by correcting any errors, if present and also write 
+   down the output of the corrected code?    [2074 Ashwin]
+	Define MAX'S'
+	 int main()
+            {
+    	int case[MAX]={2,3,5,4,10},i,sum=0;
+        for(i=0,i<MAX,i+=1)
+       {
+           printf("case %d=%3.2d\n",I,case[i]);
+           sum+=*case+i;
+       };
+            average=sum/MAX;
+            printf("%06.2f",average);
+          return 1;
+            }
+-> Rewrite the following program by correcting any syntactical errors, if present.Also show
+    the output of the corrected code.  [2070 Ashad]
+              #include<stdio.h>
+              int main()           
+              {             
+                  float root, int i=1;
+                  do{ sum=2i-1;                  
+                         print("\t%d\n",sum);\                      
+                         i*=5/3;
+               } 
+                  while (sum<=15)              
+                  root=pow(i,1/2);
+                  print("\n%.3f',root);         
+                  return void;
+              }              
+-> write a program to generate the following outputs.   [2075 Chaitra]
+
+  		1 2 3 4 5 4 3 2 1
+
+   		  1 2 3 4 3 2 1
+
+    		   1 2 3 2 1
+
+       		     1 2 1
+
+		       1       
+ -> what will the output of the following program explain?   [2075 Ashwin]
+		#include<studio.h>
+		int main(){
+		if(!NULL)
+     		 printf("C programming is easy");
+		else
+    		  printf("C programming is not easy");
+		return 0;
+		}	
+-> write down the output of the print() function for the following sections of the statements?   [2074 Chaitra]
+          float a = 5.7891;
+          int b = 6789;
+          printf("a=%4f and b=%-7d from the first line",a,b);
+         printf("a=%-7.2f and b=%07d from the second line",a,b);
+          printf("a=%.2f and b=%2d from the third line",a,b);                       
+ -> rewrite the following program by correcting any errors, if present and also write down 
+    the output of the corrected code?    [2074 Ashwin]
+		Define MAX'S'
+		int main()
+		{
+    		int case[MAX]={2,3,5,4,10},i,sum=0;\
+   		 for(i=0,i<MAX,i+=1)
+       {
+          printf("case %d=%3.2d\n",I,case[i]);
+           sum+=*case+i;
+       };
+     	   average=sum/MAX;
+    	   printf("%06.2f",average);
+           return 1;
+	}
+-> write a program in a c to generate following patterns using unformatted input/output functions only?    [2074 Ashwin]
+            		N
+          	      e e e
+                    P P P P P
+      		  a a a a a a a
+    		L L L L L L L L L 
+-> Find out final value of a,b,c where following rxpression are executed sequentially.[2070 Chaitra]
+     int a=2, b=3, c;
+     a= (b++) + (++b) + a;
+     c=a>b ? a:b;
+     b= (a++) + (b--) + a;
+     c=c++ * b--;  
+ -> Write a C program to display following patterns using unformatted output statement.[2070 Chaitra]
+     		P
+     		Pu
+    	        PuL
+     		PULC
+     		PuLcH
+     		PULCHO
+    	        puLcHoW
+     		PULCHOWK   
+ -> Rewrite the following source code correcting  any error present in it. Also indicate the error
+     corrected in comment. Then write the output of the program.[2069 Ashad]
+    //program to convert list of temperatures
+   //in Centigrade to Fahrenheit
+	#include sidio.h;
+	int main()
+		{
+    			 int i, n=3;
+     			float celc[n], faren[n];
+    			for(i=0: i<n; i++)
+			{
+        			 Print ( "Celc[%d] =" )
+        			scanf("%d", ceic[i]);
+		}
+    				convert (celc, faren, n);
+    				 for(i=0; i<n; i++) print(faren[i]);
+     					break;
+			};
+  				 void convert,(float ce1[],, float far[], int n)
+					{
+          					 for(i=0; i<n,. i++) cel2far(far[i], cel[i]);
+					};
+     						cel2far(float f, float c)
+							{     f =9/5*c+32; };
+-> Give the output of the following program and justify your answer with reason.[2069 Chaitra]
+			#include<stdio.h>
+			int main(){
+     					int x=3 ,y=5.z=7;
+   					 int a,b;
+					 a=x*2 + y/5 - z*y;
+                                         b= ++x *(y-3)/2-z++*y
+     					 printf("a=%d",a);
+     					 printf("b=%d",b);

@@ -1,0 +1,23 @@
+-> Write a programe  to find the following sum of following series up to n terms. [2079 Baishakh]
+   sum = 1+x^1/1!+x^2/2!+x^3/3!+......
+-> Write a programe to generate Fibonacci series up to n terms. You need to make a recursive function  to
+   generate the each term of Fibonacci series.[2079 Baishakh]
+-> Write a programe  to display the addition of two matrix.Your programe should include one function named
+   input to enter the values of two matrix, one function named add to perform addtion of two matrix and one
+   function named display to show the result obtained after addition of two matrix.[2079 Baishakh]
+-> Write a programe  that uses this structure to input  start time and stop time. Pass structures to a function
+   by reference that calculates the sum  and difference of start and stop time.Display the sum and difference
+   from calling functions.[2079 Baishakh]
+-> Write a programe  to read a string containing letters,numbers and special characters,tranfers only letters
+   contained in it into another string using pointer, finally display the second string containing only 
+   alphabets.[2079 Baishakh]
+-> Write a programe that reads numbers from a file containing series of numbers and seperates odd numbers from
+   even numbers and writes them on two seperate files.[2079 Baishakh]
+-> Write a programe  to evalute the following series until the term value becomes less than 10^-6: 
+   cos(x)=1-x^2/2!+x^4/4!-X^6/6!+x^8/8!.....[2079 Bhadra]
+-> Write a programe  to read a string from the user.Pass the string to a function and sort the alphabets
+   in descending order.For examples,if the user entererd 'exam' then the programe should display'xmea'. [2079 Bhadra]
+-> Write a programe  to find the frequency of a number in array.[2079 Bhadra]
+-> Write a programe  to create a structure book with its member name price and author. Read 10 records from
+   user write it to a file named 'book.dat'. Read information from book.dat file,search author name 'Gotterfried',
+   If found copy the records to a file 'gotterfried.dat'[2079 Bhadra]

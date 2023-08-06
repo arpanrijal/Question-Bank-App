@@ -1,0 +1,29 @@
+-> write the prograrm "to find whether a year is leap or not'. [2071 Shrawan]
+->  write a program to find out sum of digit of number until the number becomes one
+ digit number.[891>18>9]. [2071 Shrawan]
+-> write a program to read a string and rewrite its characters in alphabetical order.[2071 Shrawan]
+-> A multinational company has  hired 3 sales persons for marketing/selling in 3 different.products 
+in Kathmandu. Each sales person sells each of these products. Write a program to read number of each
+ product sold by all.sales-persons. Calculate total sells of each item and the total sells of each 
+sales-person. Use arrays. [2071 Shrawan]
+-> Write the program “to understand how to structure members are sent to a function “. [2071 Shrawan]
+-> Write a program using pointer to swap  the value of two variables where the swapping operation
+ is performed in separate function. [2071 Shrawan]
+-> Write a C program to store employed details in a text file. Read data from the text file,
+ short them in ascending order of salary and store the sorted record to a binary file.
+ Display the details and rank of employee given by the user. [2071 Shrawan]
+-> lilustrate nested iF statement with its flowchart. Write a program to calculate the 
+series: 1x10+ 3x20+6x30+.......+ N(N+1)/2 *10N, where N is an integer terM read from
+ the keyboard. [2071 Chaitra]
+-> Write a program to display Armstrong number between the range entered by a user and also
+ display their counts. You must use of function to check for Armstrong numbersand display
+ them from main.[2071 Chaitra]
+-> Write a C program to read the string and display its reverse. Use user defined function
+ to count number of characters in it and to reverse it. [2071 Chaitra]
+-> Write a C program that reads several different names and address using structure computer,
+ rearrange the names into alphabetical order and write out alphabetical list.[2071 Chaitra]
+-> Write a program to calculate sum and average of integer numbers between M and N
+(where value of M and are read from keyboard ) using pointer.[2071 Chaitra]
+-> Write a program to continuously read name, age and salary of a worker and write it into
+ a file utill user confirms to end. Then read n from user and display the nth record in the
+ file. Details of worker must be represented by a structure.[2071 Chaitra]

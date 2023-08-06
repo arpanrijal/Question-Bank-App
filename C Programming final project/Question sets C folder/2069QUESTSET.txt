@@ -1,0 +1,58 @@
+-> Write a program in C to find all possible roots of a quadratic equation ax^2 + bx + c=0. [2069 Ashad]
+-> Write a program that passes an array to a function and print the largest and smallest element.[2069 Ashad]
+-> Create a structure in C to  store the name of a batsman, runs score and no. of times the batsman 
+   in dismissed. In the program read data of 5 players and display the batting average of the player 
+   whose name is entered by the user. Batting average is given by the total runs/total dismissals.[2069 Ashad]
+-> Write a program in C to read the following information from 96 students:
+   Studentd Name, Student roll number, Marks obtained (in 100).
+   Record all data in “ioe.txt” file, and programs will be print roll number and name of the Student
+   who have obtained greater than or equal to 40 marks. [2069 Ashad]
+-> Rewrite the following source code correcting  any error present in it. Also indicate the error 
+   corrected in comment.Then write the output of the program.[2069 Ashad]
+
+//program to convert list of temperatures
+//in Centigrade to Fahrenheit
+#include sidio.h;
+int main()
+{
+     int i, n=3;
+     float celc[n], faren[n];
+     for(i=0: i<n; i++)
+{
+         Print ( "Celc[%d] =" )
+         scanf("%d", ceic[i]);
+}
+     convert (celc, faren, n);
+     for(i=0; i<n; i++) print(faren[i]);
+     break;
+};
+     void convert,(float ce1[],, float far[], int n)
+{
+           for(i=0; i<n,. i++) cel2far(far[i], cel[i]);
+};
+     cel2far(float f, float c)
+{     f =9/5*c+32; };
+
+-> Give the output of the following program and justify your answer with reason.[2069 Chaitra]
+
+#include<stdio.h>
+int main()
+{
+     int x=3 ,y=5.z=7;
+     int a,b;
+     a=x*2 + y/5 - z*y;
+     b= ++x *(y-3)/2-z++*y;
+     printf("a=%d",a);
+     printf("b=%d",b);
+     retum 0;
+}
+
+-> Write a program that prints the floating point value with following specification.[2069 Chaitra]
+i) Correct up to two decimal places
+ii) correct up to four decimal places
+
+-> Write a program to read the number until- 1 is encountered. Also count the number of prime number and composite number entered by the user.[2069 Chaitra]
+-> Write a program to calculate exp(x,y) using recursive function without using pow() function.[ example: exp(2,3)=2^3 i.e. 2*2*2=8.]. [2069 Chaitra]
+-> Write a program to transport 3 * 3 matrix. Two matrix are input from the main() function and pass to a user defined function with arguments as array.The result is displayed from the main function.[2069 Chaitra]
+-> Create an Array of structure name Employee with the name and salary as structure member and the  array of structure is passed to a function which sots in ascending order on the basis of salary and display the sorted array from main(). [2069 Chaitra]
+->  Write a program, taking care of all the possible error condition that may occur, to open a new file name DATA that reads  integers from user until user say “no”. After reading the data write all the odd numbers to a file called ODD  and all the even number to file called EVEN. [2069 Chaitra]

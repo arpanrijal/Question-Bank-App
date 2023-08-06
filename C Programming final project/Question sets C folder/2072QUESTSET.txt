@@ -1,0 +1,25 @@
+-> Write a program to calculate the sum of the series 1+11+11l+....+ up to N terrns
+ using recursive function.If N is read as 5, the series is:1+11+111+1111+11111. [ 2072 Kartik ]
+-> Write a program to find the sum of series Sn = Σ(l/n^2) up to N term. [ 2072 Kartik ]
+-> Write a program to read a word from a main function, pass it into a function that will
+ convert all of its characters into upper case if the first character is in iower case and
+ into lower case if the first character is in upper case. Display the converted string from
+ main function. [ 2072 Kartik ]
+-> Write a C program that calls reverse array () to reverse the array and return the array 
+and display the element of reversed array using pointer. [ 2072 Kartik ]
+->  Write a program to read n from user and display the sum of follorwing series till
+ nth terms: 1+(1+2)+(1+2+3)+(1+2+3+4)+.......n. [ 2072 Kartik ]
+-> Write a program to write name, roll number and age of 5 students into a disk file 
+name “STUDENT.DAT”. [ 2072 Kartik ]
+-> Write a progratn to check whether a given integer ls a triangular number or not.
+( Any number is a triangular number if the sum of natural number from 1 to any number
+ i is exactly equal to that number. For eg 1,3,6,10,15 etc are triangukar number
+ as 1+2=3, 1+2+3=6, 1+2+3+4=10,......). [2072 Chaitra ]
+-> Write a prograrn to calculate sum of digits of a given 5-digits number entererd by the
+ user using recursive function.[2072 Chaitra ]
+-> write a program to read a 3*3 square matrix, find minimum integer value of matrix, replace
+ the diagonal elements by the maximum element and display using pointer.[2072 Chaitra ]
+-> Write a program to read structure ''college'' having name, estDate and location where estDate
+ is another structure having day, month and year as a members. Display the records of 10 colleges.[2072 Chaitra ]
+-> Write a program to read the information of a file named ''data.txt'' and write its content 
+to another file “record.txt”. [2072 Chaitra ]

@@ -1,0 +1,32 @@
+-> Write a program to read a number from the user, count the number of even digits contained in it and
+   display whether the resulting count is prime or not?   [2075 Chaitra]
+-> write a program to generate the following outputs.   [2075 Chaitra]
+
+     1 2 3 4 5 4 3 2 1
+       1 2 3 4 3 2 1
+         1 2 3 2 1
+          1 2 1
+            1
+
+-> Write a program to read one dimensional array of n elements, pass it to a function for processing so that,
+   the programs should display the largest and smallest element of an array from the main function?[2075 Chaitra]
+-> write a program to define a structure named person with Name, address, salary as its member. Enter
+   values for 5 persons. pass the structure to a function which increases the salary by 15% each. Display
+   the updated information in the main() function?   [2075 Chaitra]
+-> write an algorithm, draw flowchart and program to input a number check if it is armstrong or not? [2075 Ashwin]
+-> write a program that finds the largest word in a given sentence?    [2075 Ashwin]
+-> what will the output of the following program explain?   [2075 Ashwin]
+
+    #include<studio.h>
+      int main(){
+        if(!NULL)
+           printf("C programming is easy");
+       else
+           printf("C programming is not easy");
+      return 0;
+              }
+
+-> write a program to add to distances given in feet and inch format using structure?    [2075 Ashwin]
+-> write a program to calculate the length of string without using string handling function?    [2075 Ashwin]
+-> A file name employee.txt stores employee name, employee ID and employee salary write a program 
+   to display the detail of all employee in order of their salary?    [2075 Ashwin]

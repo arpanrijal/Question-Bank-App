@@ -1,0 +1,17 @@
+# Palindrome Armstrong and fibonacci questions
+
+-> write a program to print the fibonacci series until the term is less than 500?    [2075 Chaitra]
+
+-> write an algorithm, draw flowchart and program to input a number check if it is armstrong or not?    [2075 Ashwin]
+
+->write a program in C to find out whether the nth term of the Fibonacci series is a prime number or not. Read the value of n from the user and display the result in the main function. Use separate user-defined functions to generate the nth  Fibonacci term and to check whether a number its prime or not?     [2074 Ashwin]
+
+-> write a program in C to check whether a given string is palindrome or not using user defined function?    [2074 Ashwin]
+
+-> write a program to check whether a given number is Armstrong number or not using recursive function?     [2073 Shrawan]
+
+-> Write a program to display Armstrong number between the range entered by a user and also display their counts. You must use of function to check for Armstrong numbersand display them from main.[2071 Chaitra]
+
+-> write a programe to check whether an entered word is a palindrome or not without using library function.[2078 Kartik]
+
+-> Write a programe to generate Fibonacci series up to n terms. You need to make a recursive function  to generate  the each term of Fibonacci series.[2079 Baishakh]

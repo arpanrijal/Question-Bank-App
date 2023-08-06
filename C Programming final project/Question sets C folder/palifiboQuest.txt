@@ -1,0 +1,4 @@
+1. write a program to print the fibonacci series until the term is less than 500?    [2075 Chaitra]
+2. write an algorithm, draw flowchart and program to input a number check if it is armstrong or not?    [2075 Ashwin]
+3. write a program in C to check whether a given string is palindrome or not using user defined function?    [2074 Ashwin]
+4. write a program to check whether a given number is Armstrong number or not using recursive function?     [2073 Shrawan]
