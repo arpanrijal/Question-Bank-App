@@ -12,6 +12,15 @@
 
 #include<unistd.h> //used to use sleep() and fflush(stdout)
 
+#include<string.h>
+struct questiononly{
+                char question[500];
+                };
+struct answeronly{
+                char answer[8000];
+
+};
+
 void afterLogin();
 void quesPast();
 void repeatQuestPastYear();
@@ -21,14 +30,20 @@ void paliFiboArm();
 void addYourQuest();
 void pastque2080();
 void pastque2079();
-
+void switch_case_p();
+void sourceCodeShow();
+void strUserDefineFun(char str);
 char username[10];
 char password[20];
+void YourSavedAnswer();
+void decisionSelection();
+void repSourceDecision();
+void space();
 int azq=0;
 
 int main()
 {
-    system("color 70");
+     system("color 70");
     printf("\t\t\t\t\tER. C PROGRAMMING LOGIN PAGE\n\n\n");
     printf("Introduction: Welcome to Er. C programming Login Page.\nYour system default Username and Password is \"admin\"\n\n");
      if(azq>=1)
@@ -67,6 +82,7 @@ int main()
         azq++;
         main();
     }
+
 }
 
 void afterLogin()
@@ -78,7 +94,7 @@ void afterLogin()
 
     printf("---------------------------------------\n");
 
-    printf("Word By Devs:\tWelcome to Er.C solution App.\n\t\tThis app is made to help\n\t\tstudent who want to learn c\n\t\tprogramming easily.\n\t\twe provide you the full\n\t\tsolution so it helps you in\n\t\tour exam.\n\n");
+    space(10);printf("Word By Devs:\tWelcome to Er.C solution App.\n\t\tThis app is made to help\n\t\tstudent who want to learn c\n\t\tprogramming easily.\n\t\twe provide you the full\n\t\tsolution so it helps you in\n\t\tour exam.\n\n");
 
     printf("Developer:\tArpan,Sugam,Sujan\n");
 
@@ -92,9 +108,9 @@ void afterLogin()
 
     printf("\n4. \"SOURCE CODE\" of past year question (Important only)\n");
 
-    printf("\n5. Add your question\n");
+    printf("\n5. Add your question with solution\n");
 
-    printf("\n6. \"Show the output\" type question solution (2069-2080)\n");
+    printf("\n6. Your saved questions solution\n");
 
     wrongInput:
 
@@ -132,15 +148,13 @@ void afterLogin()
 
         break;
 
-    /*  case 4:
+      case 4:
 
           system("cls");
 
-          printf("4");
+      sourceCodeShow();
 
-    //   sourceCodeShow();
-
-          break; */
+          break;
 
        case 5:
 
@@ -152,9 +166,9 @@ void afterLogin()
 
             system("cls");
 
-           printf("6");
+           YourSavedAnswer();
 
-           showOutputQuest();
+
 
            break;
 
@@ -219,58 +233,8 @@ selectyear:
 
     fclose(fpt);
 
-    //user choice selection
-
-       printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
-
-        scanf(" %c",&decision);
-
-        if(decision=='c')
-
-        {
-            system("cls");
-
-            goto selectyear;
-
-        }
-
-        if(decision=='e')
-
-        {
-
-            system("cls");
-
-            for(j=3; j>=1; j--)
-
-            {
-
-            printf("Exiting.... in %dsec",j);
-
-            fflush(stdout); // Flush the output buffer to display the message immediately
-
-            sleep(1); // Sleep for 3 seconds
-             system("cls");
-
-
-           }
-
-            system("cls");
-
-           printf("Exit Successful.\nPress any key to close the terminal!\n\n");
-
-            exit(0);
-
-        }
-
-        if(decision=='b')
-
-        {
-
-             system("cls");
-
-            main();
-
-        }
+    //user choice selection using seperat function
+    decisionSelection();
 
         break;
 
@@ -295,62 +259,8 @@ selectyear:
 
     fclose(fpt2079);
 
-         //user choice selection
-
-        printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
-
-        scanf(" %c",&decision);
-
-        if(decision=='c')
-
-        {
-            system("cls");
-
-            goto selectyear;
-
-        }
-
-        if(decision=='e')
-
-        {
-
-                system("cls");
-
-            for(j=3; j>=1; j--)
-
-            {
-
-            printf("Exiting.... in %dsec",j);
-
-            fflush(stdout); // Flush the output buffer to display the message immediately
-
-            sleep(1); // Sleep for 3 seconds
-             system("cls");
-
-
-           }
-
-            system("cls");
-
-           // system("kill -9 $$");
-
-           printf("Exit Successful.\nPress any key to close the terminal!\n\n");
-
-            exit(0);
-
-
-        }
-
-        if(decision=='b')
-
-        {
-
-             system("cls");
-
-            main();
-
-        }
-
+ //user choice selection using seperat function
+    decisionSelection();
         break;
 
     case 2078:
@@ -374,60 +284,8 @@ selectyear:
 
     fclose(fpt2078);
 
-         //user choice selection
-
-        printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
-
-        scanf(" %c",&decision);
-
-        if(decision=='c')
-
-        {
-            system("cls");
-            goto selectyear;
-
-        }
-
-        if(decision=='e')
-
-        {
-
-            system("cls");
-
-            for(j=3; j>=1; j--)
-
-            {
-
-            printf("Exiting.... in %dsec",j);
-
-            fflush(stdout); // Flush the output buffer to display the message immediately
-
-            sleep(1); // Sleep for 3 seconds
-             system("cls");
-
-
-           }
-
-            system("cls");
-
-           // system("kill -9 $$");
-
-           printf("Exit Successful.\nPress any key to close the terminal!\n\n");
-
-            exit(0);
-
-        }
-
-        if(decision=='b')
-
-        {
-
-             system("cls");
-
-            main();
-
-        }
-
+     //user choice selection using seperat function
+    decisionSelection();
         break;
 
     //No exam held at this time...
@@ -435,60 +293,9 @@ selectyear:
     case 2077:
 
 
-        printf("No physical exam held by IOE");
-         //user choice selection
-
-        printf("\n\nPress \"b\" to go to home screen and press \"e\" to exit the program: ");
-
-        scanf(" %c",&decision);
-
-        if(decision=='c')
-
-        {
-            system("cls");
-            goto selectyear;
-
-        }
-
-        if(decision=='e')
-
-        {
-
-            system("cls");
-
-            for(j=3; j>=1; j--)
-
-            {
-
-            printf("Exiting.... in %dsec",j);
-
-            fflush(stdout); // Flush the output buffer to display the message immediately
-
-            sleep(1); // Sleep for 3 seconds
-             system("cls");
-
-
-           }
-
-            system("cls");
-
-           // system("kill -9 $$");
-
-           printf("Exit Successful.\nPress any key to close the terminal!\n\n");
-
-            exit(0);
-
-        }
-
-        if(decision=='b')
-
-        {
-
-            system("cls");
-            main();
-
-        }
-
+        printf("NO PHYSICAL EXAM HELD BY IOE BUT THIS EXAM IS SHIFTED 2078");
+         //user choice selection using seperat function
+    decisionSelection();
         break;
 
     case 2076:
@@ -513,61 +320,8 @@ selectyear:
 
     fclose(fpt2076);
 
-         //user choice selection
-
-        printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
-
-        scanf(" %c",&decision);
-
-        if(decision=='c')
-
-        {
-            system("cls");
-
-            goto selectyear;
-
-        }
-
-        if(decision=='e')
-
-        {
-
-            system("cls");
-
-            for(j=3; j>=1; j--)
-
-            {
-
-            printf("Exiting.... in %dsec",j);
-
-            fflush(stdout); // Flush the output buffer to display the message immediately
-
-            sleep(1); // Sleep for 3 seconds
-             system("cls");
-
-
-           }
-
-            system("cls");
-
-           // system("kill -9 $$");
-
-           printf("Exit Successful.\nPress any key to close the terminal!\n\n");
-
-            exit(0);
-
-        }
-
-        if(decision=='b')
-
-        {
-
-             system("cls");
-
-            main();
-
-        }
-
+       //user choice selection using seperat function
+    decisionSelection();
         break;
 
     case 2075:
@@ -590,59 +344,8 @@ selectyear:
 
     fclose(fpt2075);
 
-         //user choice selection
-
-        printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
-
-        scanf(" %c",&decision);
-
-        if(decision=='c')
-
-        {
-            system("cls");
-            goto selectyear;
-
-        }
-
-        if(decision=='e')
-        {
-
-            system("cls");
-
-            for(j=3; j>=1; j--)
-
-            {
-
-            printf("Exiting.... in %dsec",j);
-
-            fflush(stdout); // Flush the output buffer to display the message immediately
-
-            sleep(1); // Sleep for 3 seconds
-             system("cls");
-
-
-           }
-
-            system("cls");
-
-           // system("kill -9 $$");
-
-           printf("Exit Successful.\nPress any key to close the terminal!\n\n");
-
-            exit(0);
-
-        }
-
-        if(decision=='b')
-
-        {
-
-             system("cls");
-
-            main();
-
-        }
-
+  //user choice selection using seperat function
+    decisionSelection();
         break;
 
     case 2074:
@@ -665,58 +368,8 @@ selectyear:
     }
 
     fclose(fpt2074);
-             //user choice selection
-        printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
-
-        scanf(" %c",&decision);
-
-        if(decision=='c')
-
-        {
-            system("cls");
-            goto selectyear;
-
-        }
-
-        if(decision=='e')
-{
-
-            system("cls");
-
-            for(j=3; j>=1; j--)
-
-            {
-
-            printf("Exiting.... in %dsec",j);
-
-            fflush(stdout); // Flush the output buffer to display the message immediately
-
-            sleep(1); // Sleep for 3 seconds
-             system("cls");
-
-
-           }
-
-            system("cls");
-
-           // system("kill -9 $$");
-
-           printf("Exit Successful.\nPress any key to close the terminal!\n\n");
-
-            exit(0);
-
-        }
-
-        if(decision=='b')
-
-        {
-
-             system("cls");
-
-            main();
-
-        }
-
+       //user choice selection using seperat function
+    decisionSelection();
         break;
 
     case 2073:
@@ -738,59 +391,8 @@ selectyear:
     }
 
     fclose(fpt2073);
-         //user choice selection
-        printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
-
-        scanf(" %c",&decision);
-
-        if(decision=='c')
-
-        {
-            system("cls");
-            goto selectyear;
-
-        }
-
-        if(decision=='e')
-
-        {
-
-            system("cls");
-
-            for(j=3; j>=1; j--)
-
-            {
-
-            printf("Exiting.... in %dsec",j);
-
-            fflush(stdout); // Flush the output buffer to display the message immediately
-
-            sleep(1); // Sleep for 3 seconds
-             system("cls");
-
-
-           }
-
-            system("cls");
-
-           // system("kill -9 $$");
-
-           printf("Exit Successful.\nPress any key to close the terminal!\n\n");
-
-            exit(0);
-
-        }
-
-        if(decision=='b')
-
-        {
-
-             system("cls");
-
-            main();
-
-        }
-
+   //user choice selection using seperat function
+    decisionSelection();
         break;
 
     case 2072:
@@ -813,58 +415,8 @@ selectyear:
     }
 
     fclose(fpt2072);
-         //user choice selection
-        printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
-
-        scanf(" %c",&decision);
-
-        if(decision=='c')
-
-        {
-            system("cls");
-            goto selectyear;
-
-        }
-
-        if(decision=='e')
-
-        {
-
-            system("cls");
-
-            for(j=3; j>=1; j--)
-
-            {
-
-            printf("Exiting.... in %dsec",j);
-
-            fflush(stdout); // Flush the output buffer to display the message immediately
-
-            sleep(1); // Sleep for 3 seconds
-             system("cls");
-
-
-           }
-
-            system("cls");
-
-           // system("kill -9 $$");
-
-           printf("Exit Successful.\nPress any key to close the terminal!\n\n");
-
-            exit(0);
-        }
-
-        if(decision=='b')
-
-        {
-
-            system("cls");
-
-            main();
-
-        }
-
+    //user choice selection using seperat function
+    decisionSelection();
         break;
 
     case 2071:
@@ -887,57 +439,8 @@ selectyear:
     }
 
     fclose(fpt2071);
-         //user choice selection
-        printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
-
-        scanf(" %c",&decision);
-
-        if(decision=='c')
-
-        {
-            system("cls");
-            goto selectyear;
-
-        }
-
-        if(decision=='e')
-
-{
-
-            system("cls");
-
-            for(j=3; j>=1; j--)
-
-            {
-
-            printf("Exiting.... in %dsec",j);
-
-            fflush(stdout); // Flush the output buffer to display the message immediately
-
-            sleep(1); // Sleep for 3 seconds
-             system("cls");
-
-
-           }
-
-            system("cls");
-
-           // system("kill -9 $$");
-
-           printf("Exit Successful.\nPress any key to close the terminal!\n\n");
-
-            exit(0);
-        }
-
-        if(decision=='b')
-
-        {
-
-            system("cls");
-            main();
-
-        }
-
+      //user choice selection using seperat function
+    decisionSelection();
         break;
 
     case 2070:
@@ -961,57 +464,8 @@ selectyear:
     }
 
     fclose(fpt2070);
-         //user choice selection
-        printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
-
-        scanf(" %c",&decision);
-
-        if(decision=='c')
-
-        {
-            system("cls");
-            goto selectyear;
-
-        }
-
-        if(decision=='e')
-{
-
-            system("cls");
-
-            for(j=3; j>=1; j--)
-
-            {
-
-            printf("Exiting.... in %dsec",j);
-
-            fflush(stdout); // Flush the output buffer to display the message immediately
-
-            sleep(1); // Sleep for 3 seconds
-             system("cls");
-
-
-           }
-
-            system("cls");
-
-           // system("kill -9 $$");
-
-           printf("Exit Successful.\nPress any key to close the terminal!\n\n");
-
-            exit(0);
-        }
-
-        if(decision=='b')
-
-        {
-
-            system("cls");
-
-            main();
-
-        }
-
+       //user choice selection using seperat function
+    decisionSelection();
         break;
 
     case 2069:
@@ -1034,59 +488,8 @@ selectyear:
     }
 
     fclose(fpt2069);
-         //user choice selection
-        printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
-
-        scanf(" %c",&decision);
-
-        if(decision=='c')
-
-        {
-            system("cls");
-            goto selectyear;
-
-        }
-
-        if(decision=='e')
-
-        {
-
-            system("cls");
-
-            for(j=3; j>=1; j--)
-
-            {
-
-            printf("Exiting.... in %dsec",j);
-
-            fflush(stdout); // Flush the output buffer to display the message immediately
-
-            sleep(1); // Sleep for 3 seconds
-             system("cls");
-
-
-           }
-
-            system("cls");
-
-           // system("kill -9 $$");
-
-           printf("Exit Successful.\nPress any key to close the terminal!\n\n");
-
-            exit(0);
-
-        }
-
-        if(decision=='b')
-
-        {
-
-            system("cls");
-
-            main();
-
-        }
-
+      //user choice selection using seperat function
+    decisionSelection();
         break;
 
     default:
@@ -1103,11 +506,11 @@ selectyear:
      void repeatQuestPastYear()
      {
          int j;
-         char decision,repeatquestPastYear[8000];
+         char decision,repeatquestPastYear[8000],QuestCharacter[8000];
 
          system("cls");
      FILE *fptrepque;
-    fptrepque=fopen("repeatquestPastYear.txt","r");//This code is for repeatquestPastYear question set only
+    fptrepque=fopen("repeatquestPastYears.txt","r");//This code is for repeatquestPastYear question set only
     if (fptrepque!=NULL)
     {
        while(!feof(fptrepque))
@@ -1122,55 +525,11 @@ selectyear:
     }
 
     fclose(fptrepque);
-
-    //user choice selection
-
-        printf("\n\n press \"b\" to go to home screen and press \"e\" to exit the program: ");
-
-        scanf(" %c",&decision);
-
-
-
-        if(decision=='e')
-
-        {
-
-            system("cls");
-
-            for(j=3; j>=1; j--)
-
-            {
-
-            printf("Exiting.... in %dsec",j);
-
-            fflush(stdout); // Flush the output buffer to display the message immediately
-
-            sleep(1); // Sleep for 3 seconds
-             system("cls");
-
-
-           }
-
-            system("cls");
-
-           // system("kill -9 $$");
-
-           printf("Exit Successful.\nPress any key to close the terminal!\n\n");
-
-            exit(0);
-
-        }
-
-        if(decision=='b')
-
-        {
-
-             system("cls");
-
-            main();
-
-        }
+//function for source and rep only quest
+   repSourceDecision();
      }
+
+
 
 
 
@@ -1178,14 +537,18 @@ selectyear:
 
         {
             char opt,armopt,decision;
-    int num,n1,n2,numarm,z=0,series,count=0,temp,temp1,rem;
+            char str[17];
+            int num,n1,n2,numarm,z=0,series,count=0,temp,temp1,rem;
     start:
 
 
      palfibarmhome:
-
-    printf("\n\nFor question enter \"q\" \nFor source code enter \"s\" \nFor program execution enter \"p\" \n");
-    printf("Enter your command: ");
+    selectquest:
+        system("cls");
+        start1:
+    printf(" Command Execution Page\n");
+    printf("\n For question enter \"q\" For Palindrome, Fibonacci and Armstrong Question only(2080-2069)\n For program execution enter \"p\" \n");
+    printf(" Enter your command: ");
     scanf(" %c",&opt);
      system("cls");
     switch(opt)
@@ -1208,37 +571,17 @@ selectyear:
         if(decision=='b')
         {
              system("cls");
-            main();
+           afterLogin();
             break;
         }
         break;
 
-    case 's':
-        selectquest:
-        printf("Questions source code is here!!");
-        printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
-        scanf(" %c",&decision);
-        if(decision=='c')
-        {
-            system("cls");
-            goto selectquest;
-        }
-        if(decision=='e')
-        {
-             system("cls");
-            printf("Exiting....");
-            exit(0);
-        }
-        if(decision=='b')
-        {
-             system("cls");
-            main();
-            break;
-        }
+
 
     case 'p':
-        printf("Questions from 1 to upto..... \n");
-        printf("\n\nEnter question number of that code: ");
+
+       switch_case_p();//function call for question print...
+    printf("\n\nEnter question number of that code: ");
         scanf("%d",&num);
         if(num==1)
         {
@@ -1274,7 +617,7 @@ selectyear:
             else if(armopt=='h')
             {
              system("cls");
-                main();
+                afterLogin();
             }
             else
             {
@@ -1288,6 +631,7 @@ selectyear:
         }
         else if(num==2)
           {
+              system("cls");
               printf("To check the given number is Armstrong number or not\n\n");
               printf("Enter number: ");
               scanf("%d",&numarm);
@@ -1306,13 +650,14 @@ selectyear:
               }
               if(z==numarm)
               {
-                  printf("%d not equal to %d is Armstrong number!",z,numarm);
+                  printf("%d is Armstrong number!",numarm);
               }
               else
               {
-                  printf("%d not equal to %d so it isn't Armstrong number!",z,numarm);
+                  printf("%d so it isn't Armstrong number!",numarm);
               }
-              printf("\n\n\Enter \"m\" for this section main menu or \"h\" for homescreen\n enter any character to exit the program: ");
+
+               printf("\n\n\Enter \"m\" for this section main menu or \"h\" for homescreen\n enter any character to exit the program: ");
               scanf(" %c",&armopt); //we need to use address & to store character so it can be used in if.
               if(armopt=='m')
               {
@@ -1322,7 +667,7 @@ selectyear:
               else if(armopt=='h')
               {
              system("cls");
-                  main();
+                  afterLogin();
               }
               else
               {
@@ -1334,12 +679,39 @@ selectyear:
           }
         else if(num==3)
         {
- system("cls");
-            printf("remaining is coming soon!");
+
+            system("cls");
+            printf("\tCheck given string is palindrome or not using user defined function\n");
+            printf("\n\nEnter your word: ");
+            scanf("%s", str);
+            checkPalindrome(str);
+            printf("\n\n\Enter \"m\" for this section main menu or \"h\" for homescreen\n enter any character to exit the program: ");
+              scanf(" %c",&armopt); //we need to use address & to store character so it can be used in if.
+              if(armopt=='m')
+              {
+             system("cls");
+                  goto start1;
+              }
+              else if(armopt=='h')
+              {
+             system("cls");
+                  afterLogin();
+              }
+              else
+              {
+            system("cls");
+            printf("Exiting....");
+                  exit(0);
+              }
+              break;
+        }
+        else if(num==4)
+        {
+
         }
         else
         {
-            printf("Invalid Input! enter number between 1-10!");
+            printf("Invalid Input! enter number between 1-4!");
         }
         break;
     default:
@@ -1349,8 +721,32 @@ selectyear:
         goto palfibarmhome;
         break;
     }
-        }
+}
+//string function for 1330 line
+void checkPalindrome(char str[])
+{
+    int length = strlen(str);
+    int i, j;
+    int isPalindrome = 1; // Assume the string is a palindrome
 
+    for (i = 0, j = length - 1; i < j; i++, j--)
+    {
+        if (str[i] != str[j])
+        {
+            isPalindrome = 0; // Update the flag if characters don't match
+            break;
+        }
+    }
+
+    if (isPalindrome)
+    {
+        printf("%s is a palindrome", str);
+    }
+    else
+    {
+        printf("%s is not a palindrome", str);
+    }
+}
 
     void showOutputQuest( )
 
@@ -1376,52 +772,8 @@ selectyear:
     fclose(fptshoutque);
 
 
-    //user choice selection
-
-        printf("\n\n press \"b\" to go to home screen and press \"e\" to exit the program: ");
-
-        scanf(" %c",&decision);
-
-
-
-        if(decision=='e')
-
-        {
-
-            system("cls");
-
-            for(j=3; j>=1; j--)
-
-            {
-
-            printf("Exiting.... in %dsec",j);
-
-            fflush(stdout); // Flush the output buffer to display the message immediately
-
-            sleep(1); // Sleep for 3 seconds
-             system("cls");
-
-
-           }
-
-            system("cls");
-
-           // system("kill -9 $$");
-
-           printf("Exit Successful.\nPress any key to close the terminal!\n\n");
-
-            exit(0);
-
-        }
-
-        if(decision=='b')
-
-        {
-
-             system("cls");
-
-            main();
-        }
+ //function for source and rep only quest
+   repSourceDecision();
      }
 
       void palifiboarmfun()
@@ -1447,21 +799,270 @@ FILE *fptpfa;
     }
 
 
-void addYourQuest()
+void sourceCodeShow()
 {
-    char cha[MAX_LENGTH];
-    FILE *fptraddquest;
-    printf("\t\t\tEnter Your Question:\n");
-    fgets(cha, sizeof(cha), stdin);
-    fptraddquest = fopen("userAddedQuest.txt", "a");
-    if (fptraddquest != NULL)
+     char decision, sourcecodeV[8000];
+    FILE *fptsourcec;
+    fptsourcec = fopen("sourceCode.txt", "r"); // This code is for the source code of the question
+
+    if (fptsourcec != NULL) {
+
+        while (fgets(sourcecodeV, 8000, fptsourcec) != NULL) {
+            puts(sourcecodeV);
+        }
+    } else {
+        printf("Error opening the file.\n");
+    }
+
+    fclose(fptsourcec);
+
+//function for source and rep only quest
+   repSourceDecision();
+}
+
+
+
+void switch_case_p()
+{
+    /* char QuestCharacter;
+    FILE *fptpalifiboquests;
+
+    system("cls");
+
+    fptpalifiboquests = fopen("sourceCode.txt", "r"); // This code is for repeatquestPastYear question set only
+
+    if (fptpalifiboquests != NULL) {
+            printf("Hello");
+        while (fgets(QuestCharacter, 8000, fptpalifiboquests) != NULL) {
+            puts(QuestCharacter);
+        }
+        fclose(fptpalifiboquests); // Close the file only if it was successfully opened
+    } else {
+        printf("error");
+    }*/
+
+         // int j;
+         char showoutputQuest1[8000];
+
+         FILE *fptshoutque1;
+    fptshoutque1=fopen("palifiboQuest.txt","r");
+    if (fptshoutque1!=NULL)
     {
-        fputs(cha, fptraddquest);
-        fclose(fptraddquest);
-        printf("Data written to userAddedQuest successfully.\n");
+       while(!feof(fptshoutque1))
+    {
+        fgets(showoutputQuest1,8000,fptshoutque1);
+        puts(showoutputQuest1);
+    }
     }
     else
     {
-        printf("Error while opening file.\n");
+        printf("error");
     }
+
+    fclose(fptshoutque1);
+
 }
+
+
+void space(int n)
+{for(int i=0;i<n;i++)
+{
+
+    printf(" ");
+}
+}
+
+void decisionSelection()
+{
+    char decision;
+printf("\n\nPress \"c\" to continue, press \"b\" to go to home screen and press \"e\" to exit the program: ");
+
+        scanf(" %c",&decision);
+
+        if(decision=='c')
+
+        {
+            system("cls");
+
+            quesPast();
+
+        }
+
+        if(decision=='e')
+
+        {
+
+            system("cls");
+
+            for(int j=3; j>=1; j--)
+
+            {
+
+            printf("Exiting.... in %dsec",j);
+
+            fflush(stdout); // Flush the output buffer to display the message immediately
+
+            sleep(1); // Sleep for 3 seconds
+             system("cls");
+
+
+           }
+
+            system("cls");
+
+           printf("Exit Successful.\nPress any key to close the terminal!\n\n");
+
+            exit(0);
+
+        }
+
+        if(decision=='b')
+
+        {
+
+             system("cls");
+
+            afterLogin();
+
+        }
+}
+
+void repSourceDecision()
+{
+    char decision;
+printf("\n\nPress \"b\" to go to home screen and press \"e\" to exit the program: ");
+
+        scanf(" %c",&decision);
+
+        if(decision=='e')
+
+        {
+
+            system("cls");
+
+            for(int j=3; j>=1; j--)
+
+            {
+
+            printf("Exiting.... in %dsec",j);
+
+            fflush(stdout); // Flush the output buffer to display the message immediately
+
+            sleep(1); // Sleep for 3 seconds
+             system("cls");
+
+
+           }
+
+            system("cls");
+
+           printf("Exit Successful.\nPress any key to close the terminal!\n\n");
+
+            exit(0);
+
+        }
+
+        if(decision=='b')
+
+        {
+
+             system("cls");
+
+            afterLogin();
+
+        }
+}
+
+
+void addYourQuest()
+{
+
+FILE *fpquad=NULL;
+FILE *fpans=NULL;
+
+    fpquad=fopen("questiononlyfile.txt","a");
+    fpans=fopen("answeronlyfile.txt","a");
+    struct questiononly qQ[30];
+    struct answeronly qA[30];
+    int numm1m, numm2m;
+    printf("Enter your question each character with space length: ");
+    scanf("%d",&numm1m);
+    printf("Enter your source code each character with space length: ");
+    scanf("%d",&numm2m);
+printf("Enter the question:");
+for(int i=0;i<numm1m;i++)
+{
+    gets(qQ[i].question);
+    fwrite(&qQ[i],sizeof(struct questiononly),1,fpquad);
+}
+printf("Enter your answer:");
+for(int i=0;i<numm2m;i++)
+{
+    gets(qA[i].answer);
+    fwrite(&qA[i],sizeof(struct answeronly),1,fpans);
+}
+
+for(int i=0;i<2;i++)
+{
+
+    printf("%s\n",qQ[i].question);
+    printf("%s\n",qA[i].answer);
+}
+fclose(fpquad);
+fclose(fpans);
+ //user choice selection using seperat function
+    repSourceDecision();
+}
+
+
+void YourSavedAnswer()
+{
+    FILE*fpabc;
+    FILE*fpdef;
+    fpabc=("questiononlyfile.txt","r");
+    fpdef=("answeronlyfile.txt","r");
+    struct questiononly qQ[30];
+    struct answeronly qA[30];
+    int n=0;
+    if(fpabc=NULL)
+    {
+        printf("Error!");
+    }
+    else
+
+    {
+   while (fread(&qQ[n], sizeof(struct questiononly), 1, fpabc) == 1)
+        {
+            fread(&qA[n], sizeof(struct answeronly), 1, fpdef);
+            n++;
+        }
+        for(int i=0;i<2;i++)
+        {
+    printf("%s",qQ[i].question);
+
+    printf("%s",qA[i].answer);
+        }
+    fclose(fpabc);
+    fclose(fpdef);
+
+    }
+     //user choice selection using seperat function
+    repSourceDecision();
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
