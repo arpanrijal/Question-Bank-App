@@ -4,8 +4,6 @@
 
 #include<conio.h>
 
-#define MAX_LENGTH 800
-
 #include<math.h>
 
 #include<windows.h>
